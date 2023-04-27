@@ -1,4 +1,4 @@
-# Match Up! 
+# Match Up! Memory Game
 ## By Aaron Green
 ---
 ## Description
