@@ -18,3 +18,12 @@ The user can improve by completing the game and beat their previous time.
 ## Site owner's goal 
 
 As a site owner this should be a website that anyone can enjoy and return to.  
+
+---
+## Wireframes 
+* Home WebPage [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11344988/Home.Webpage.pdf)
+* Home Page (Tablet) [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11344987/Home.page.Tablet.pdf)
+* Home page (Mobile) [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11344989/Home.page.Moblie.pdf)
+* Game Webpage [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11345146/Game.Webpage.pdf)
+* Game page (Tablet) [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11345148/Game.page.Tablet.pdf)
+* Game page (Moblie)  [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11345153/Game.page.Moblie.pdf)
