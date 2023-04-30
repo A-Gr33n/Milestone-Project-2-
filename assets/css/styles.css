@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+body{
+    background-color: #ffcc00;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+/*home page*/
+.button{
+    position: relative;
+    top: 200px;
+    height: 140px;
+    width: 140px;
+    border: 6px solid red;
+    background-color: rgb(255, 196, 0);
+    left: 700px;
+    font-size: 150%;
+
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family:'Trebuchet MS';
+    font-size: 400%;
+    
+}
+
+.subheading {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.rule{
+    text-align: center;
+    position: relative;
+    top: 500px;
+}
