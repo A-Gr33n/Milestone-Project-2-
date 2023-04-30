@@ -9,7 +9,7 @@ body{
 /*home page*/
 .button{
     position: relative;
-    top: 200px;
+    top: 300px;
     height: 140px;
     width: 140px;
     border: 6px solid red;
@@ -38,4 +38,36 @@ body{
     text-align: center;
     position: relative;
     top: 500px;
+}
+
+/*game page*/
+
+#stop {
+    position: absolute;
+    left:200px; 
+}
+
+.card{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(240,49,49);
+    border: 3px solid #ffff00;
+    position: relative;
+    top: 1px;
+    left: 380px;
+    transform-origin: center right;
+}
+
+.title-game{
+    font-family:'Trebuchet MS';
+    text-align: center;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto) 1fr;
+    grid-gap: 10px;
+    row-gap: 10px;
+    grid-gap: 1em;
+
 }
