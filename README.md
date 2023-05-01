@@ -35,8 +35,9 @@ As a site owner this should be a website that anyone can enjoy and return to.
   ---
   ## Technologies Used 
   ### Languages Used
-   * HTML 5
-   * CSS3
+   * HTML 
+   * CSS
+   * JavaScript
 ---
 ## Frameworks
  1. Bootstrap V5 .3: 
