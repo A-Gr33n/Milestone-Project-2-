@@ -1,5 +1,8 @@
 const cards = document.querySelectorAll('.card') ; 
 
+function startGame () {
+}
+
 function flipCard() {
     this.classList.toggle("flipped");
    
@@ -12,9 +15,10 @@ function flipCard() {
    });
 
 
-
-function startGame () {
+function shuffle (array){
+   
 }
+
 
 function cardMatched(){
    
