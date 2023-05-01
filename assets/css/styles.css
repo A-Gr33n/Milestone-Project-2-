@@ -42,6 +42,14 @@ body{
 
 /*game page*/
 
+/*Main heading*/
+
+.title-game{
+    font-family:'Trebuchet MS';
+    text-align: center;
+}
+
+/*game time and moves*/
 .flips{
     font-family: Arial;
     position: absolute;
@@ -57,7 +65,7 @@ body{
      font-size: 150%;
 }
 
-
+/*buttons*/
 #restart{
     position: absolute;
     top: 200px ;
@@ -76,10 +84,10 @@ body{
     width: 90px;
 }
 
+/*Card Section*/
 .card{
     height: 120px;
     width: 120px;
-    background-color: rgb(240,49,49);
     border: 3px solid #ffff00;
     position: relative;
     top: 1px;
@@ -87,10 +95,9 @@ body{
     transform-origin: center right;
 }
 
-.title-game{
-    font-family:'Trebuchet MS';
-    text-align: center;
-}
+
+
+
 
 .game-container{
     display: grid;
