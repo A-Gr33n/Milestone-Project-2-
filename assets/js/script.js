@@ -1,31 +1,76 @@
-const cards = document.querySelectorAll('.card') ; 
+const ANIMALS_CONFIG = [
+  {
+    name: "Elephant",
+    imageFileName: 'elephant.png'
+  },
+  {
+    name: "fox",
+    imageFileName: 'fox.png'
+  },
+  {
+    name: "lion",
+    imageFileName: 'lion.png'
+  },
+  {
+    name: "raccoon",
+    imageFileName: 'raccoon.png'
+  },
+  {
+    name: "Owl",
+    imageFileName: 'Owl.png'
+  },
+  {
+    name: "sheep",
+    imageFileName: 'sheep.png'
+  },
+  {
+    name: "squirrel",
+    imageFileName: 'squirrel.png'
+  },
+  {
+    name: "Turtle",
+    imageFileName: 'Turtle.png'
+  },
+];
+
 
 function startGame () {
+  displayAnimals();  
+  addEventListenersToCard();      
+}
+
+function addEventListenersToCard() {
+  document.querySelectorAll('.card').forEach(function(card){
+    card.addEventListener("click", flipCard);
+  });
+}
+
+function displayAnimals() {
+  let animalsList = [...ANIMALS_CONFIG, ...ANIMALS_CONFIG];
+  animalsList = shuffleArray(animalsList);
+
+  let animalsHTML = '';
+  animalsList.forEach(eachAnimal => {
+    animalsHTML += `<div class="card-face card">
+                   <img src="assets/images/${eachAnimal.imageFileName}" alt="${eachAnimal.name}">
+              </div>`;
+  });
+
+  document.getElementById('game-container').innerHTML = animalsHTML;
 }
 
 function flipCard() {
-    this.classList.toggle("flipped");
-   
-   }
-   // Pair of cards will flip when clicked 
-   cards.forEach(function(card){
-     card.addEventListener("click", flipCard);
-   
-    
-   });
+  this.classList.toggle("flipped");
+  // Store card which was clicked first
+  // Wait for 2nd click
+  // On 2nd click check if both card animal matches
+  // If yes, do nothing and increment score
+  // Else, flip back both cards
+}
 
 
 function shuffleArray(array){
-  // Array of animal cards 
-  const animals = ['elephant', 'fox' ,'lion', 'owl', 'raccoon', 'sheep', 'squirrel' ,'turtle'] ; 
-   
-   let animal = animals.length; 
- 
-   // Randomize array to shuffle cards every new play
-  for (var i = animal.length -1; i > 0; i--)  {
-     Math.floor(math.random()*(i+1)) ;
-  }
-    return array;
+  return array.sort( () => .5 - Math.random() );
 }
 
 
@@ -50,3 +95,5 @@ function restartTime() {
 function allCardsmatched(){
 
 }
+
+startGame();
