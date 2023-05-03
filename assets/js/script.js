@@ -60,12 +60,31 @@ function displayAnimals() {
 }
 
 function flipCard() {
-  this.classList.toggle("flipped");
   // Store card which was clicked first
+  if (storeCard) return;
+  if (this === firstCard) return;
+  
+  this.classList.toggle("flipped");
+
   // Wait for 2nd click
+  second = this;
+  score++
+  document.querySelector(".score").textContent = score ; 
+  storeCard = true;
   // On 2nd click check if both card animal matches
-  // If yes, do nothing and increment score
-  // Else, flip back both cards
+  checkForMatch();
+  
+  if (! firstCard) {
+    firstClick= card.getAttribute("animal");
+     return;
+    // If yes, do nothing and increment score
+    
+  }
+ 
+   else {
+       
+      // Else, flip back both cards
+   }
 }
 
 
