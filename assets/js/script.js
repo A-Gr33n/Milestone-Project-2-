@@ -59,42 +59,39 @@ function displayAnimals() {
   document.getElementById('game-container').innerHTML = animalsHTML;
 }
 
-function flipCard() {
-  // Store card which was clicked first
-  if (storeCard) return;
-  if (this === firstCard) return;
+const cards = document.querySelector('.card');
+  let firstCard , secondCard ; 
+
+function flipCard(e) {
+   // Store card which was clicked first
+     // Wait for 2nd click
+  // On 2nd click check if both card animal matches
+  
+      // If yes, do nothing and increment score
+      // Else, flip back both cards
+  let clickedCard =e.target ; 
   
   this.classList.toggle("flipped");
-
-  // Wait for 2nd click
-  second = this;
-  score++
-  document.querySelector(".score").textContent = score ; 
-  storeCard = true;
-  // On 2nd click check if both card animal matches
-  checkForMatch();
   
-  if (! firstCard) {
-    firstClick= card.getAttribute("animal");
-     return;
-    // If yes, do nothing and increment score
-    
+  if(!firstCard) {
+     return firstCard = clickedCard;
   }
- 
-   else {
-       
-      // Else, flip back both cards
-   }
-}
 
+  let  firstCardImg = firstCard.querySelector(),
+  
 
+  firstCard= clickedCard;
+  secondCard = clickedCard;
+  console.log(firstCard, secondCard);
+  
+  };
+  
 function shuffleArray(array){
   return array.sort( () => .5 - Math.random() );
 }
 
-
-function cardMatched(){
-   
+function cardMatched( ){
+    console.log()
 }
 
 
