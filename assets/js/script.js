@@ -63,21 +63,19 @@ const cards = document.querySelector('.card');
   let firstCard , secondCard ; 
 
 function flipCard(e) {
-   // Store card which was clicked first
-     // Wait for 2nd click
-  // On 2nd click check if both card animal matches
   
-      // If yes, do nothing and increment score
-      // Else, flip back both cards
   let clickedCard =e.target ; 
-  
+ 
+
+ 
+
   this.classList.toggle("flipped");
   
   if(!firstCard) {
      return firstCard = clickedCard;
   }
 
-  let  firstCardImg = firstCard.querySelector(),
+  
   
 
   firstCard= clickedCard;
@@ -91,9 +89,26 @@ function shuffleArray(array){
 }
 
 function cardMatched( ){
-    console.log()
-}
+   const cards = document.querySelectorAll('img')
+   const firstCardId = cardsChosenId[0]
+   const secondCardId = cardsChosenId[1]
 
+    
+ if(firstCard == secondCard)   {
+     cards[firstCardId].setAttribute('src', 'images/elephant.png')
+     cards[secondCardId].setAttribute('src', 'images/elephant.png')
+     alert('You have made a match search for another')
+    }
+  }
+    
+   // if two cards are matched 
+   // increment matched value by one
+   // if matched value is 8 that menans user has matched all the cards 
+   // If yes, do nothing and increment score
+// Store card which was clicked first
+     // Wait for 2nd click
+  // On 2nd click check if both card animal matches
+// Else, flip back both cards
 
 
 function cardUnmatched(){
