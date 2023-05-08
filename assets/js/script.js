@@ -59,15 +59,12 @@ function displayAnimals() {
   document.getElementById('game-container').innerHTML = animalsHTML;
 }
 
-const cards = document.querySelector('.card');
-  let firstCard , secondCard ; 
+
 
 function flipCard() {
   
 
   this.classList.toggle("flipped");
-  
-  
   };
   
 function shuffleArray(array){
@@ -102,10 +99,7 @@ function cardsMatched(){
     }
   }
 
-   cardsClicked= []
-   cardsClickedId= []
-   result.textContent = cardsMatched.length 
-    
+   
    // if two cards are matched 
    // increment matched value by one
    // if matched value is 8 that menans user has matched all the cards 
