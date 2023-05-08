@@ -62,25 +62,11 @@ function displayAnimals() {
 const cards = document.querySelector('.card');
   let firstCard , secondCard ; 
 
-function flipCard(e) {
+function flipCard() {
   
-  let clickedCard =e.target ; 
- 
-
- 
 
   this.classList.toggle("flipped");
   
-  if(!firstCard) {
-     return firstCard = clickedCard;
-  }
-
-  
-  
-
-  firstCard= clickedCard;
-  secondCard = clickedCard;
-  console.log(firstCard, secondCard);
   
   };
   
@@ -88,18 +74,37 @@ function shuffleArray(array){
   return array.sort( () => .5 - Math.random() );
 }
 
-function cardMatched( ){
-   const cards = document.querySelectorAll('img')
-   const firstCardId = cardsChosenId[0]
-   const secondCardId = cardsChosenId[1]
+function cardsMatched(){
+    const Cards = document.querySelectorAll('')
+    let firstCard = cardsClickedId[0]
+    let secondCard = cardsClickedId[1]
+  
+    if (firstCard === secondCard){
+     cards[firstCard].setAttribute('imageFileName', placeholder)
+     cards[secondCard].setAttribute('imageFileName', placeholder)
+    alert('you have clicked the same image!')
+    }
 
-    
- if(firstCard == secondCard)   {
-     cards[firstCardId].setAttribute('src', 'images/elephant.png')
-     cards[secondCardId].setAttribute('src', 'images/elephant.png')
-     alert('You have made a match search for another')
+    else if (cardsClicked[0]=== cardsClicked [1]) {
+      cards[firstCard].setAttribute('imageFileName' , blank)
+      cards[secondCard].setAttribute('imageFileName' , blank)
+      cardsMatched.push(cardsClicked)
+    }
+
+    else if (cardsClicked[0]===cardsClicked[1]) {
+      cards[firstCard].removeEventListener('click' , flipCard)
+      cards[secondCard].removeEventListener('click' , flipCard)
+    }
+
+    else {
+      cards[firstCard].setAttribute('imageFileName' , placeholder)
+      cards[secondCard].setAttribute('imageFileName', placeholder)
     }
   }
+
+   cardsClicked= []
+   cardsClickedId= []
+   result.textContent = cardsMatched.length 
     
    // if two cards are matched 
    // increment matched value by one
