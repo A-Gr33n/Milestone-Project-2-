@@ -75,27 +75,16 @@ function cardsMatched(){
     const Cards = document.querySelectorAll('')
     let firstCard = cardsClickedId[0]
     let secondCard = cardsClickedId[1]
-  
-    if (firstCard === secondCard){
-     cards[firstCard].setAttribute('imageFileName', placeholder)
-     cards[secondCard].setAttribute('imageFileName', placeholder)
-    alert('you have clicked the same image!')
+    
+    cards[optionOneId].setAttribute('img src', images/elephant.png)
+    cards[optionTwoId].setAttribute('img src', images/elephant.png )
+    
+    if(!match){
+      
+      
     }
-
-    else if (cardsClicked[0]=== cardsClicked [1]) {
-      cards[firstCard].setAttribute('imageFileName' , blank)
-      cards[secondCard].setAttribute('imageFileName' , blank)
-      cardsMatched.push(cardsClicked)
-    }
-
-    else if (cardsClicked[0]===cardsClicked[1]) {
-      cards[firstCard].removeEventListener('click' , flipCard)
-      cards[secondCard].removeEventListener('click' , flipCard)
-    }
-
-    else {
-      cards[firstCard].setAttribute('imageFileName' , placeholder)
-      cards[secondCard].setAttribute('imageFileName', placeholder)
+    else{
+      flipbackCard()
     }
   }
 
