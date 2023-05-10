@@ -69,21 +69,15 @@ function shuffleArray(array){
 
 function cardsMatched(){
    let score = 0;
-  
-   if(elephant.png === elephant.png){ // if two cards are matched 
-      matchedCard++ ;// increment matched value by one
-      if(matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
-     if (yes){// If yes, do nothing and increment score
-         document.getElementById("score").innerHTML = "score" + (++score) ;
-         score += 1 ;
+  if(elephant.png === elephant.png){// if two cards are matched 
+     if (matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
+      score +=1;// increment matched value by one
+      // If yes, do nothing and increment score
      }
-      else {
-          
-        }
-      }
-
-      }
-    
+    return console.log('Card Matched');
+     } else{
+       console.log('card Not Matched');
+     } 
   }
 
    
