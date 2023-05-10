@@ -59,11 +59,7 @@ function displayAnimals() {
   document.getElementById('game-container').innerHTML = animalsHTML;
 }
 
-
-
 function flipCard() {
-  
-
   this.classList.toggle("flipped");
   };
   
@@ -72,14 +68,18 @@ function shuffleArray(array){
 }
 
 function cardsMatched(){
-   
-  if(elephant.png === elephant.png){ // if two cards are matched 
+   let score = 0;
+  
+   if(elephant.png === elephant.png){ // if two cards are matched 
       matchedCard++ ;// increment matched value by one
       if(matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
-    
-       setTimeout(() => {
-         return shuffleCard();
-       }, 1200 ); 
+     if (yes){// If yes, do nothing and increment score
+         document.getElementById("score").innerHTML = "score" + (++score) ;
+         score += 1 ;
+     }
+      else {
+          
+        }
       }
 
       }
@@ -90,7 +90,7 @@ function cardsMatched(){
   
    
    
-   // If yes, do nothing and increment score
+   
 // Store card which was clicked first
      // Wait for 2nd click
   // On 2nd click check if both card animal matches
