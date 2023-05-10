@@ -72,15 +72,11 @@ function shuffleArray(array){
 }
 
 function cardsMatched(){
-    const Cards = document.querySelectorAll('')
-    let firstCard = cardsClickedId[0]
-    let secondCard = cardsClickedId[1]
-    
-    cards[optionOneId].setAttribute('img src', images/elephant.png)
-    cards[optionTwoId].setAttribute('img src', images/elephant.png )
+   
+  
     
     if(!match){
-      
+      return  ;
       
     }
     else{
