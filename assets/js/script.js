@@ -60,6 +60,7 @@ function displayAnimals() {
 }
 
 function flipCard() {
+  
   this.classList.toggle("flipped");
   };
   
@@ -68,17 +69,25 @@ function shuffleArray(array){
 }
 
 function cardsMatched(){
+   
    let score = 0;
-  if(elephant.png === elephant.png){// if two cards are matched 
+ 
+  if(selectedCard.matched || selectedCards.length === 2 ){// if two cards are matched 
      if (matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
       score +=1;// increment matched value by one
       // If yes, do nothing and increment score
+      firstCard.classList.add('match');
+      secondCard.classList.add('match');
      }
     return console.log('Card Matched');
      } else{
-       console.log('card Not Matched');
-     } 
+       setTimeout(()=> {
+       firstCard.classList.remove('no-match');
+       secondCard.classList.remove('no-match');
+          console.log('card Not Matched');
+     },1000 );
   }
+}
 
    
   
