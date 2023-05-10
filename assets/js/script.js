@@ -73,21 +73,23 @@ function shuffleArray(array){
 
 function cardsMatched(){
    
-  
+  if(elephant.png === elephant.png){ // if two cards are matched 
+      matchedCard++ ;// increment matched value by one
+      if(matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
     
-    if(!match){
-      return  ;
-      
-    }
-    else{
-      flipbackCard()
-    }
+       setTimeout(() => {
+         return shuffleCard();
+       }, 1200 ); 
+      }
+
+      }
+    
   }
 
    
-   // if two cards are matched 
-   // increment matched value by one
-   // if matched value is 8 that menans user has matched all the cards 
+  
+   
+   
    // If yes, do nothing and increment score
 // Store card which was clicked first
      // Wait for 2nd click
