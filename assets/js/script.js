@@ -59,20 +59,36 @@ function displayAnimals() {
   document.getElementById('game-container').innerHTML = animalsHTML;
 }
 
-function flipCard() {
-  
-  this.classList.toggle("flipped");
-  };
-  
 function shuffleArray(array){
   return array.sort( () => .5 - Math.random() );
 }
+
+function flipCard() {
+  let hasFlippedCard = false ; 
+  let firstCard , secondCard ;
+  
+  this.classList.toggle("flipped");
+  
+  if (!hasFlippedCard){
+
+    hasFlippedCard = true ;
+    firstCard = this;
+    return;
+  } 
+   secondCard = this ;
+   hasFlippedCard = false;
+   checkForMatch();
+  };
+  
+
 
 function cardsMatched(){
    
    let score = 0;
  
-  if(selectedCard.matched || selectedCards.length === 2 ){// if two cards are matched 
+  if(selectedCard.matched || selectedCards.length === 2 ){
+    
+    // if two cards are matched 
      if (matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
       score +=1;// increment matched value by one
       // If yes, do nothing and increment score
@@ -85,7 +101,7 @@ function cardsMatched(){
        firstCard.classList.remove('no-match');
        secondCard.classList.remove('no-match');
           console.log('card Not Matched');
-     },1000 );
+     },100 );
   }
 }
 
