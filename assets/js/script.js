@@ -124,7 +124,7 @@ function resetCards () {
 
 }
 
-function restartTime() {
+function restartGame() {
    
 }
 
@@ -132,4 +132,4 @@ function allCardsmatched(){
 
 }
 
-startGame();
+ startGame()
