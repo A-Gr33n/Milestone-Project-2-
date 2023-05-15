@@ -128,8 +128,10 @@ function resetCards () {
  )}
 
  function stopGame (){
-   
- }
+   document.querySelector('#stop').addEventListener.innerHTML( 'click', {
+    
+   }
+) }
 
 function allCardsmatched(){
 
