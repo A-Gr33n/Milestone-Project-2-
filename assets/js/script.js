@@ -121,12 +121,15 @@ function cardUnmatched(){
 }
 
 function resetCards () {
+ document.querySelector('#restart').addEventListener.innerHTML('click', {
+    
 
-}
+ }
+ )}
 
-function restartGame() {
+ function stopGame (){
    
-}
+ }
 
 function allCardsmatched(){
 
