@@ -80,28 +80,27 @@ function flipCard() {
    checkForMatch();
   };
   
-
-
-function cardsMatched(){
-   
-   let score = 0;
  
-  if(selectedCard.matched || selectedCards.length === 2 ){
-    
+
+ function cardsMatched(){
+    let score = 0;
+    let cards = document.querySelectorAll('imageFileName')
+    const selectionOneId = cardsSelectedId[0]
+    const selectionTwoId = cardsSelectedId[1]
+ 
+  if(cardSelected[0]===cardsSelected[1]){
+     alert('You found a match')
+     
+
     // if two cards are matched 
      if (matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
       score +=1;// increment matched value by one
       // If yes, do nothing and increment score
-      firstCard.classList.add('match');
-      secondCard.classList.add('match');
+     
      }
     return console.log('Card Matched');
      } else{
-       setTimeout(()=> {
-       firstCard.classList.remove('no-match');
-       secondCard.classList.remove('no-match');
-          console.log('card Not Matched');
-     },100 );
+       
   }
 }
 
