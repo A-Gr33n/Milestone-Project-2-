@@ -64,61 +64,37 @@ function shuffleArray(array){
 }
 
 function flipCard() {
-  let hasFlippedCard = false ; 
-  let firstCard , secondCard ;
-  
-  this.classList.toggle("flipped");
-  
-  if (!hasFlippedCard){
 
-    hasFlippedCard = true ;
-    firstCard = this;
-    return;
-  } 
-   secondCard = this ;
-   hasFlippedCard = false;
-   checkForMatch();
+    this.classList.toggle("flipped");
   };
   
- 
-
- function cardsMatched(){
-    let score = 0;
-    let cards = document.querySelectorAll('imageFileName')
-    const selectionOneId = cardsSelectedId[0]
-    const selectionTwoId = cardsSelectedId[1]
- 
+ function cardsMatched(){ 
+    let cards = document.querySelectorId('game-container')
+    cardSelected.push(this);
+    const len = cardsSelected.length;
+  
+    if (len === 2){
+        moves++
   if(cardSelected[0]===cardsSelected[1]){
      alert('You found a match')
-     
-
-    // if two cards are matched 
+     // if two cards are matched 
      if (matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
       score +=1;// increment matched value by one
       // If yes, do nothing and increment score
-     
      }
     return console.log('Card Matched');
      } else{
-       
-  }
+       unmatched();
+     }
+ }
 }
-
-   
-  
-   
-   
-   
 // Store card which was clicked first
      // Wait for 2nd click
   // On 2nd click check if both card animal matches
 // Else, flip back both cards
-
-
 function cardUnmatched(){
-
+    
 }
-
 function resetCards () {
  document.querySelector('#restart').addEventListener.innerHTML('click', {
     
