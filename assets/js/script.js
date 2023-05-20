@@ -69,13 +69,9 @@ function flipCard() {
   };
   
  function cardsMatched(){ 
-    let cards = document.querySelectorId('game-container')
-    cardSelected.push(this);
-    const len = cardsSelected.length;
-  
-    if (len === 2){
+if (len === 2){
         moves++
-  if(cardSelected[0]===cardsSelected[1]){
+  if(firstAnimal[0]===secondAnimal[1]){
      alert('You found a match')
      // if two cards are matched 
      if (matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
@@ -86,8 +82,8 @@ function flipCard() {
      } else{
        unmatched();
      }
+   }
  }
-}
 // Store card which was clicked first
      // Wait for 2nd click
   // On 2nd click check if both card animal matches
