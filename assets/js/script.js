@@ -69,21 +69,25 @@ function flipCard() {
   };
   
  function cardsMatched(){ 
-if (len === 2){
-        moves++
-  if(firstAnimal[0]===secondAnimal[1]){
-     alert('You found a match')
+    document.getElementByclassName('.card')
+    let moves = 0 
+    if ()
+  };
+      
+      
+  
+    
      // if two cards are matched 
-     if (matchedCard==8){// if matched value is 8 that menans user has matched all the cards 
-      score +=1;// increment matched value by one
+     // if matched value is 8 that menans user has matched all the cards 
+        // increment matched value by one
       // If yes, do nothing and increment score
-     }
-    return console.log('Card Matched');
-     } else{
-       unmatched();
-     }
-   }
- }
+     
+
+     
+     
+    
+  
+
 // Store card which was clicked first
      // Wait for 2nd click
   // On 2nd click check if both card animal matches
