@@ -75,7 +75,7 @@ function flipCard() {
   
   function checkForMatch(){ 
    
- if (firstCard.dataset.card === secondCard.dataset.card){
+ if (firstCard.dataset.imageFileName === secondCard.dataset.imageFileName){
         incrementScore();
         alert("Good job, it's a match!");
     } else {
@@ -123,7 +123,10 @@ function resetGame () {
   }
 
 function allCardsmatched(){
-
+   if (cardMatched ===8) {
+    setTimeout(function() {
+     alert("congratulations! You found all the pairs!");
+    },100)
 }
 
  startGame()   // if two cards are matched 
