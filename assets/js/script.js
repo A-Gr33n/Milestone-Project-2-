@@ -67,9 +67,7 @@ let firstCard, secondCard
 let moves = 0
 
 function flipCard() {
-   if (lockCard || this ===firstCard)  {
-         return;
-     }
+  
     this.classList.toggle("flipped");
   };
 
@@ -106,10 +104,17 @@ function flipCard() {
     
   
 const resetButton = document.getElementById("reset-button");
+resetButton.addEventListener("click", resetGame);
 
-function resetGame () {
+function resetGame () { 
    [lockDeck]=[false,false];
    [firstCard, secondCard]=[null, null];
+
+   const cards = document.querySelectorAll(".card");
+   cards.forEach((card) =>{
+     card.classList.remove("show");
+     card.classList.remove("matched");
+   }) ;
  }
  
  cards.forEach(card => card.addEventListener('click', flipCard));
