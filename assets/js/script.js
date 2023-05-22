@@ -123,10 +123,7 @@ function resetGame () {
   }
 
 function allCardsmatched(){
-   if (cardMatched ===8) {
-    setTimeout(function() {
-     alert("congratulations! You found all the pairs!");
-    },100)
+
 }
 
  startGame()   // if two cards are matched 
