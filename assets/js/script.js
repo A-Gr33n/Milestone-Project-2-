@@ -33,7 +33,6 @@ const ANIMALS_CONFIG = [
   },
 ];
 
-
 function startGame () {
   displayAnimals();  
   addEventListenersToCard();      
@@ -63,53 +62,70 @@ function shuffleArray(array){
   return array.sort( () => .5 - Math.random() );
 }
 
-function flipCard() {
+let lockDeck = false;
+let firstCard, secondCard
+let moves = 0
 
+function flipCard() {
+   if (lockCard || this ===firstCard)  {
+         return;
+     }
     this.classList.toggle("flipped");
   };
+
+  const cards = document.querySelectorAll('.card');
   
- function cardsMatched(){ 
-    document.getElementByclassName('.card')
-    let moves = 0 
-    if ()
+  function checkForMatch(){ 
+   
+ if (firstCard.dataset.card === secondCard.dataset.card){
+        incrementScore();
+        alert("Good job, it's a match!");
+    } else {
+        flipCardsBack();
+        alert("ah sorry no match, try again")
+    }
+    
   };
-      
-      
+
+  function disableCards() {
+    firstCard.removeEventListener('click' , flipCard);
+    secondCard.removeEventListener('click', flipCard);
+    resetCards();
+  }
+ 
+  function flipCardsBack() {
+     lockDeck = true;
+     
+     setTimeout(() => {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
+        resetCards();
+   } , 100);
+  }
   
     
-     // if two cards are matched 
-     // if matched value is 8 that menans user has matched all the cards 
-        // increment matched value by one
-      // If yes, do nothing and increment score
-     
-
-     
-     
-    
   
+const resetButton = document.getElementById("reset-button");
 
-// Store card which was clicked first
-     // Wait for 2nd click
-  // On 2nd click check if both card animal matches
-// Else, flip back both cards
-function cardUnmatched(){
-    
-}
-function resetCards () {
- document.querySelector('#restart').addEventListener.innerHTML('click', {
-    
-
+function resetGame () {
+   [lockDeck]=[false,false];
+   [firstCard, secondCard]=[null, null];
  }
- )}
+ 
+ cards.forEach(card => card.addEventListener('click', flipCard));
 
  function stopGame (){
-   document.querySelector('#stop').addEventListener.innerHTML( 'click', {
-    
-   }
-) }
+  }
 
 function allCardsmatched(){
 
 }
 
- startGame()
+ startGame()   // if two cards are matched 
+     // if matched value is 8 that menans user has matched all the cards 
+        // increment matched value by one
+      // If yes, do nothing and increment score
+     // Store card which was clicked first
+     // Wait for 2nd click
+  // On 2nd click check if both card animal matches
+// Else, flip back both cards
