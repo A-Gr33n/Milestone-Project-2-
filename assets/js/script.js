@@ -104,7 +104,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
   }
   
   function setup() {
-   const resetButton = document.getElementById("reset-button");
+   const resetButton = document.getElementById("reset-button");zz
   resetButton.addEventListener("click", resetGame);  
   }
     
@@ -114,13 +114,7 @@ function resetGame() {
     })
  }
  
-const stopButton = document.getElementById('stop-button');
-stopButton.addEventListener('click',() => {
-    isGameStopped = true ; 
-})
 
- function stopGame(){
-  }
 
 function allCardsmatched(){
 
