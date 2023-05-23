@@ -65,19 +65,21 @@ function shuffleArray(array){
 let lockDeck = false;
 let firstCard, secondCard
 let moves = 0
+ 
+const cards = document.querySelectorAll('.card');
+cards.forEach(card => card.addEventListener('click', flipCard));
 
-function flipCard() {
+ function flipCard() {
   
     this.classList.toggle("flipped");
   };
 
-  const cards = document.querySelectorAll('.card');
-  
-  function checkForMatch(){ 
+ function checkForMatch(){ 
    
  if (firstCard.dataset.imageFileName === secondCard.dataset.imageFileName){
         incrementScore();
         alert("Good job, it's a match!");
+        return console.log('Card Matched');
     } else {
         flipCardsBack();
         alert("ah sorry no match, try again")
@@ -95,31 +97,29 @@ function flipCard() {
      lockDeck = true;
      
      setTimeout(() => {
-        firstCard.classList.remove('flip');
-        secondCard.classList.remove('flip');
+        firstCard.classList.remove('flipped');
+        secondCard.classList.remove('flippped');
         resetCards();
    } , 100);
   }
   
+  function setup() {
+   const resetButton = document.getElementById("reset-button");
+  resetButton.addEventListener("click", resetGame);  
+  }
     
-  
-const resetButton = document.getElementById("reset-button");
-resetButton.addEventListener("click", resetGame);
-
-function resetGame () { 
-   [lockDeck]=[false,false];
-   [firstCard, secondCard]=[null, null];
-
-   const cards = document.querySelectorAll(".card");
-   cards.forEach((card) =>{
-     card.classList.remove("show");
-     card.classList.remove("matched");
-   }) ;
+function resetGame() { 
+    document.querySelectorAll(".card").forEach((card)=>{
+      card.classList.remove("flipped");
+    })
  }
  
- cards.forEach(card => card.addEventListener('click', flipCard));
+const stopButton = document.getElementById('stop-button');
+stopButton.addEventListener('click',() => {
+    isGameStopped = true ; 
+})
 
- function stopGame (){
+ function stopGame(){
   }
 
 function allCardsmatched(){
