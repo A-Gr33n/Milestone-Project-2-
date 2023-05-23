@@ -104,7 +104,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
   }
   
   function setup() {
-   const resetButton = document.getElementById("reset-button");zz
+   const resetButton = document.getElementById("reset-button");
   resetButton.addEventListener("click", resetGame);  
   }
     
