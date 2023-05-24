@@ -66,8 +66,9 @@ const cards = document.querySelectorAll('.card');
 cards.forEach(card => card.addEventListener('click', flipCard));
 
  function flipCard() {
-  
-    this.classList.toggle("flipped");
+   
+    this.classList.toggle('flipped'); 
+
   };
    
   // Variables to store the currently selected cards
@@ -81,7 +82,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
    }
 
  function checkForMatch(){ 
-    const cardIsClicked = 
+    const [firstCard , secondCard] =  cardIsClicked 
 
     // Flip the card
      cardIsClicked.classList.add('flipped')
@@ -97,8 +98,9 @@ cards.forEach(card => card.addEventListener('click', flipCard));
         // Second card selected 
         secondCard = cardIsClicked
       }
-   
-      // Check if the cards match
+      let firstCardImg = firstCard.querySelector("assets/image.png")
+      let secondCardImg = secondCard.querySelector("assets/image.png")
+       // On 2nd click check if both card animal matches
     if (firstCard.dataset.imageFileName == secondCard.dataset.imageFileName('matched')){
        
         // if two cards are matched 
@@ -153,7 +155,11 @@ function resetGame() {
  
  function allCardsmatched(){
 // if matched value is 8 that menans user has matched all the cards 
-
+  matchedCards +=2;
+ if(matchedCards === card.length){
+    matchedCards=8
+    alert('Congratulations you have found all cards!')
+ }
 }
 
  startGame()   
@@ -161,4 +167,4 @@ function resetGame() {
         
     
      
-  // On 2nd click check if both card animal matches
+ 
