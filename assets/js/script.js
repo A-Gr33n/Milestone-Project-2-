@@ -62,10 +62,6 @@ function shuffleArray(array){
   return array.sort( () => .5 - Math.random() );
 }
 
-let lockDeck = false;
-let firstCard, secondCard
-let moves = 0
- 
 const cards = document.querySelectorAll('.card');
 cards.forEach(card => card.addEventListener('click', flipCard));
 
@@ -73,19 +69,60 @@ cards.forEach(card => card.addEventListener('click', flipCard));
   
     this.classList.toggle("flipped");
   };
+   
+  // Variables to store the currently selected cards
+  let firstCard = null ;
+  let secondCard = null;
+  let lockDeck = false;
+   let moves = 0
+
+   for (let card of cards){
+     card.addEventListner('click', checkForMatch)
+   }
 
  function checkForMatch(){ 
+    const cardIsClicked = 
+
+    // Flip the card
+     cardIsClicked.classList.add('flipped')
+     
+    if (!firstCard) {
+        // First card selected
+        firstCard = cardIsClicked
+     }
+     // Store card which was clicked first
+
+     // Wait for 2nd click
+      else if (!secondCard) {
+        // Second card selected 
+        secondCard = cardIsClicked
+      }
    
- if (firstCard.dataset.imageFileName === secondCard.dataset.imageFileName){
+      // Check if the cards match
+    if (firstCard.dataset.imageFileName == secondCard.dataset.imageFileName('matched')){
+       
+        // if two cards are matched 
+        firstCard.classList.add('matched');
+        secondCard.classList.add('matched');
+          // If yes, do nothing and increment score
         incrementScore();
         alert("Good job, it's a match!");
         return console.log('Card Matched');
-    } else {
+     } 
+     else {
+        // if two cards don't match
+        // Else, flip back both cards
         flipCardsBack();
         alert("ah sorry no match, try again")
     }
     
   };
+
+  function incrementScore(){
+    document.querySelectorByClassName('score')
+    // increment matched value by one
+    eachScore = 1; 
+  }
 
   function disableCards() {
     firstCard.removeEventListener('click' , flipCard);
@@ -114,17 +151,14 @@ function resetGame() {
     })
  }
  
-
-
-function allCardsmatched(){
+ function allCardsmatched(){
+// if matched value is 8 that menans user has matched all the cards 
 
 }
 
- startGame()   // if two cards are matched 
-     // if matched value is 8 that menans user has matched all the cards 
-        // increment matched value by one
-      // If yes, do nothing and increment score
-     // Store card which was clicked first
-     // Wait for 2nd click
+ startGame()   
+     
+        
+    
+     
   // On 2nd click check if both card animal matches
-// Else, flip back both cards
