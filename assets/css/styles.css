@@ -115,9 +115,10 @@ body{
    transform: rotateX(180deg);
 }
 
-.card.flipped img {
+.card img.flipped {
     opacity: 1;
 }
+
 
 .flipped {
     transform: rotateX(-180deg) ; 
