@@ -80,7 +80,6 @@ function shuffleArray(array){
   return array.sort( () => .5 - Math.random() );
 }
 
-
 function flipCard(e) {
     e.target.classList.toggle('flipped'); 
     if(!firstCard) {
@@ -94,19 +93,18 @@ function flipCard(e) {
     }
 
 };
-   
- 
-//    for (let card of cards){
-//      card.addEventListner('click', checkForMatch)
-//    }
 
- function checkForMatch() { 
+function checkForMatch() { 
     const firstCardId = firstCard.dataset.id;
     const secondCardId = secondCard.dataset.id;
     if(firstCardId === secondCardId) {
         incrementScore()
         firstCard = null;
         secondCard = null;
+       
+       setTimeout(()=>{
+        alert("Good job, it's a match!");
+       },500)
 
     } else {
         const timeoutRef = setTimeout(()=> {
@@ -115,86 +113,35 @@ function flipCard(e) {
             firstCard = null;
             secondCard = null;
             clearTimeout(timeoutRef);
+            alert("ah sorry no match, try again");
         }, 1000)
     }
-    // // Flip the card
-    //  cardIsClicked.classList.add('flipped')
-     
-    // if (!firstCard) {
-    //     // First card selected
-    //     firstCard = cardIsClicked
-    //  }
-    //  // Store card which was clicked first
 
-    //  // Wait for 2nd click
-    //   else if (!secondCard) {
-    //     // Second card selected 
-    //     secondCard = cardIsClicked
-    //   }
-    //   let firstCardImg = firstCard.querySelector("assets/image.png")
-    //   let secondCardImg = secondCard.querySelector("assets/image.png")
-    //    // On 2nd click check if both card animal matches
-    // if (firstCard.dataset.imageFileName == secondCard.dataset.imageFileName('matched')){
-       
-    //     // if two cards are matched 
-    //     firstCard.classList.add('matched');
-    //     secondCard.classList.add('matched');
-    //       // If yes, do nothing and increment score
-    //     incrementScore();
-    //     alert("Good job, it's a match!");
-    //     return console.log('Card Matched');
-    //  } 
-    //  else {
-    //     // if two cards don't match
-    //     // Else, flip back both cards
-    //     flipCardsBack();
-    //     alert("ah sorry no match, try again")
-    // }
     
   };
 
-  function incrementScore(){
-    const scoreNode = document.getElementById('score');
+  function incrementScore() {
+     const scoreNode = document.getElementById('score');
     scoreNode.innerText = parseInt(scoreNode.innerText) + 1;
     // increment matched value by one
     // eachScore = 1; 
-  }
+  } 
 
-//   function disableCards() {
-//     firstCard.removeEventListener('click' , flipCard);
-//     secondCard.removeEventListener('click', flipCard);
-//     resetCards();
-//   }
- 
-//   function flipCardsBack() {
-//      lockDeck = true;
-     
-//      setTimeout(() => {
-//         firstCard.classList.remove('flipped');
-//         secondCard.classList.remove('flippped');
-//         resetCards();
-//    } , 100);
-//   }
-  
-//   function setup() {
-//    const resetButton = document.getElementById("reset-button");
-//   resetButton.addEventListener("click", resetGame);  
-//   }
+function setup() {
+
+}
     
-// function resetGame() { 
-//     document.querySelectorAll(".card").forEach((card)=>{
-//       card.classList.remove("flipped");
-//     })
-//  }
+ function resetGame() { 
+  
+ }
+
  
-//  function allCardsmatched(){
-// // if matched value is 8 that menans user has matched all the cards 
-//   matchedCards +=2;
-//  if(matchedCards === card.length){
-//     matchedCards=8
-//     alert('Congratulations you have found all cards!')
-//  }
-// }
+ 
+ function allCardsMatched(){
+    
+// if matched value is 8 that menans user has matched all the cards 
+
+}
 
  startGame()   
      
