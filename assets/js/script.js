@@ -90,6 +90,7 @@ function flipCard(e) {
     
     if(firstCard && secondCard) {
         checkForMatch();
+        incrementmoves();
     }
 
 };
@@ -125,15 +126,26 @@ function checkForMatch() {
     scoreNode.innerText = parseInt(scoreNode.innerText) + 1;
     // increment matched value by one
     // eachScore = 1; 
+    
   } 
 
-function setup() {
+  function incrementmoves() {
+     const moves = document.getElementById("moves-count");
+     moves.innerText = parseInt(moves.innerText) +1;
+   } 
 
+   function setup(){
+        const resetButton = document.getElementById("reset-button");
+    resetButton.addEventListener("click", resetGame);
+    resetGame()
 }
     
- function resetGame() { 
-  
- }
+function resetGame() { 
+    const cards = document.querySelectorAll(".card");
+      card.classList.remove('flipped');
+       }
+
+
 
  
  
