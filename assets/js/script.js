@@ -136,8 +136,7 @@ function checkForMatch() {
    } 
 
    function timerStart() {
-     const time = document.getElementById("timer")
-     
+   
    }
 
    function setup(){
