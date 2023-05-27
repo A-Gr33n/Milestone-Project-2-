@@ -53,7 +53,8 @@ let moves = 0
 
 function startGame () {
   displayAnimals();  
-  addEventListenersToCard();      
+  addEventListenersToCard();  
+  timerStart();  
 }
 
 function addEventListenersToCard() {
@@ -90,7 +91,7 @@ function flipCard(e) {
     
     if(firstCard && secondCard) {
         checkForMatch();
-        incrementmoves();
+        incrementMoves();
     }
 
 };
@@ -129,10 +130,15 @@ function checkForMatch() {
     
   } 
 
-  function incrementmoves() {
+  function incrementMoves() {
      const moves = document.getElementById("moves-count");
      moves.innerText = parseInt(moves.innerText) +1;
    } 
+
+   function timerStart() {
+     const time = document.getElementById("timer")
+     
+   }
 
    function setup(){
         const resetButton = document.getElementById("reset-button");
