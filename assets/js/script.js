@@ -135,9 +135,6 @@ function checkForMatch() {
      moves.innerText = parseInt(moves.innerText) +1;
    } 
 
-   function timerStart() {
-   
-   }
 
    function setup(){
         const resetButton = document.getElementById("reset-button");

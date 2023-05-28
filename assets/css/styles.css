@@ -127,8 +127,8 @@ body{
 }
 
 .card img {
-   opacity: 0;
-   transform: rotateX(180deg);
+   opacity:0 ;
+   
 }
 
 .card img.flipped {
@@ -136,9 +136,7 @@ body{
 }
 
 
-.flipped {
-    transform: rotateX(-180deg) ; 
-}
+
 .card-face {
     height: 120px;
     width: 120px ;
