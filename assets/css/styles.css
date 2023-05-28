@@ -116,6 +116,7 @@ body{
 }
 
 /*Card Section*/
+
 .card{
     height: 120px;
     width: 120px;
@@ -151,7 +152,7 @@ body{
     grid-gap: 10px;
     row-gap: 10px;
     grid-gap: 1em;
-    position:relative;
-    bottom:180px;
-
+   position:relative;
+    bottom:190px;
+    left:70px;
 }

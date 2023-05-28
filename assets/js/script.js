@@ -54,7 +54,7 @@ let moves = 0
 function startGame () {
   displayAnimals();  
   addEventListenersToCard();  
-  timerStart();  
+  
 }
 
 function addEventListenersToCard() {
@@ -135,29 +135,18 @@ function checkForMatch() {
      moves.innerText = parseInt(moves.innerText) +1;
    } 
 
-
-   function setup(){
-        const resetButton = document.getElementById("reset-button");
-    resetButton.addEventListener("click", resetGame);
-    resetGame()
-}
     
-function resetGame() { 
-    const cards = document.querySelectorAll(".card");
-      card.classList.remove('flipped');
-       }
+        
+   function resetGame(){
+    const resetButton = document.getElementById("reset-button")
+    resetButton.addEventListener('click', resetGame)
+    resetButton.classList.remove('flipped')
+   }
 
 
 
- 
- 
- function allCardsMatched(){
-    
-// if matched value is 8 that menans user has matched all the cards 
-
-}
-
- startGame()   
+   startGame ()
+   resetGame()
      
         
     
