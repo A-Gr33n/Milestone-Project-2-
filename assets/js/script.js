@@ -47,7 +47,7 @@ let moves = 0 ;
 let score = 0 ;
 // let noOfCardOpen ;
 
-function startGame () {
+function startGame() {
   displayAnimals();
   addEventListenersToCard();
   }
@@ -55,33 +55,34 @@ function startGame () {
 function addEventListenersToCard() {
   document.querySelectorAll(".card").forEach(function(card){
     card.addEventListener("click", flipCard);
-  });
-}
+  })
+};
 
 function displayAnimals() {
   let animalsList = [...ANIMALS_CONFIG, ...ANIMALS_CONFIG];
   animalsList = shuffleArray(animalsList);
 
   let animalsHTML = "";
-  animalsList.forEach(function(eachAnimal) => {
-    animalsHTML += `<div class="card-face card"><img src="assets/images/${eachAnimal.imageFileName}" 
-                   alt="${eachAnimal.name}" data-id="${eachAnimal.id}">
+  animalsList.forEach(function(eachAnimal) {
+    animalsHTML += `<div class="card-face card">
+<img src="assets/images/${eachAnimal.imageFileName}" 
+         alt="${eachAnimal.name}" data-id="${eachAnimal.id}">
               </div>`;
   });
 
   document.getElementById("game-container").innerHTML = animalsHTML;
-}
+};
 
 function shuffleArray(array){
   return array.sort( () => 5 - Math.random() );
-}
+};
 
 function flipCard(e) {
     e.target.classList.toggle("flipped");
     if(!firstCard) {
         // First card selected
         firstCard = e.target;
-    } else {
+    }else{
          // Second card selected
         secondCard = e.target;
     }
@@ -90,9 +91,8 @@ function flipCard(e) {
         incrementMoves();
      }
 };
-
+// On 2nd click check if both card animal matches
 function checkForMatch() { 
-    // On 2nd click check if both card animal matches
     const firstCardId = firstCard.dataset.id;
     const secondCardId = secondCard.dataset.id;
     if(firstCardId === secondCardId) {
@@ -102,19 +102,18 @@ function checkForMatch() {
        setTimeout(()=>{
         alert("Good job, it's a match!");
        },500)
-
-    } else {
+     }else{
         //  if two cards don't match
         // Else, flip back both cards
         const timeoutRef = setTimeout(()=> {
-            firstCard.classList.toggle("flipped"); 
-            secondCard.classList.toggle("flipped"); 
+            firstCard.classList.toggle("flipped");
+            secondCard.classList.toggle("flipped");
             firstCard = null;
             secondCard = null;
             clearTimeout(timeoutRef);
             alert("ah sorry no match, try again");
         }, 1000)
-    }
+    };
 };
 
   function incrementScore() {
@@ -129,7 +128,7 @@ function incrementMoves() {
      moves.innerText = parseInt(moves.innerText) +1;
      // increment move when both cards are flipped
      // each move = 1
-   } ;
+   };
    startGame ()
    
      
