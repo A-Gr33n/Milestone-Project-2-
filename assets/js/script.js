@@ -135,18 +135,8 @@ function checkForMatch() {
      moves.innerText = parseInt(moves.innerText) +1;
    } 
 
-    
-        
-   function resetGame(){
-    const resetButton = document.getElementById("reset-button")
-    resetButton.addEventListener('click', resetGame)
-    resetButton.classList.remove('flipped')
-   }
-
-
-
-   startGame ()
-   resetGame()
+ startGame ()
+   
      
         
     

@@ -10,35 +10,42 @@ body{
 /*home page*/
 .button{
     position: relative;
-    top: 300px;
+    top: 250px;
     height: 140px;
     width: 140px;
     border: 6px solid red;
     background-color: rgb(255, 196, 0);
-    left: 700px;
+    left: 690px;
     font-size: 150%;
     
 }
 
+.button:hover {
+    background-color:#FF0000;
+}
+
 .title{
-    text-align: center;
+   
     position: relative;
     top: 50px;
+    left:380px;
     font-family:'Trebuchet MS';
     font-size: 400%;
     
 }
 
 .subheading {
-    text-align: center;
+    
     position: relative;
     top: 100px;
+    left:380px;
 }
 
 .rule{
-    text-align: center;
+   
     position: relative;
     top: 500px;
+    left:390px;
 }
 
 /*game page*/
@@ -47,9 +54,9 @@ body{
 
 .title-game{
     font-family:'Trebuchet MS';
-    text-align: center;
     position:relative;
     bottom:190px;
+    left:550px;
 }
 
 /*game Text*/
@@ -59,7 +66,7 @@ body{
     font-size: 150%;
     position:relative;
     top:660px;
-    left:420px;
+    left:490px;
 }
 
 .score-text{
@@ -67,14 +74,14 @@ body{
     font-size: 150%;
     position:relative;
     top:595px;
-    left:400px;
+    left:470px;
 }
 
 #moves-count{
     font-family: Arial;
     position:relative;
     top:585px;
-    left:520px;
+    left:580px;
     font-size: 150%;
 }
 
@@ -82,33 +89,26 @@ body{
     font-family: Arial;
     position:relative;
     top:525px;
-    left:500px;
+    left:550px;
     font-size: 150%;
+}
+
+.refresh-text{
+   position:relative;
+   bottom:190px;
+   left:500px;
 }
 
 
 /*buttons*/
 
-#reset-button{
-    position:relative ;
-    top: 485px ;
-    left:620px ;
-    border:solid 5px rgb(48, 194, 48);
-    height: 60px;
-    width: 90px;
-}
-
-#reset-button:hover {
-    background-color: #2980b9;
-}
-
 #home-button {
     position: relative;
-    top: 475px;
+    top: 495px;
     left:640px; 
     border:solid 5px rgb(233, 21, 14);
     height: 60px;
-    width: 90px;
+    width: 300px;
 }
 
 #home-button:hover{
