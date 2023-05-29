@@ -1,64 +1,59 @@
 const ANIMALS_CONFIG = [
   {
     id: "elephant",
-    name: "Elephant",
-    imageFileName: 'elephant.png'
+    imageFileName: "elephant.png",
+    name: "Elephant"
   },
   {
     id: "fox",
-    name: "fox",
-    imageFileName: 'fox.png'
+      imageFileName: "fox.png",
+      name: "fox"
   },
   {
     id: "lion",
-    name: "lion",
-    imageFileName: 'lion.png'
+    imageFileName: "lion.png" ,
+    name: "lion"
   },
   {
     id: "raccoon",
-    name: "raccoon",
-    imageFileName: 'raccoon.png'
-  },
+    imageFileName: "raccoon.png",
+    name: "raccoon"
+    },
   {
     id: "owl",
-    name: "Owl",
-    imageFileName: 'Owl.png'
+    imageFileName: "Owl.png" ,
+    name: "Owl"
   },
   {
     id: "sheep",
-    name: "sheep",
-    imageFileName: 'sheep.png'
+    imageFileName: "sheep.png",
+    name: "sheep"
   },
   {
     id: "squirrel",
-    name: "squirrel",
-    imageFileName: 'squirrel.png'
+    imageFileName: "squirrel.png" ,
+    name: "squirrel"
   },
   {
     id: "turtle",
-    name: "Turtle",
-    imageFileName: 'Turtle.png'
-  },
+    imageFileName: "Turtle.png",
+    name: "Turtle"
+  }
 ];
-
-
- // Variables to store the currently selected cards
+// Variables to store the currently selected cards
  let firstCard = null ;
  let secondCard = null;
-let moves = 0
-let score = 0 
-
-// let noOfCardOpen 
-
+let moves = 0 ;
+let score = 0 ;
+// let noOfCardOpen ;
 
 function startGame () {
-  displayAnimals();  
-  addEventListenersToCard();  
-  
-}
+  displayAnimals();
+  addEventListenersToCard();
+  }
 
 function addEventListenersToCard() {
-  document.querySelectorAll('.card').forEach(function(card){
+  document.querySelectorAll(".card").forEach(function(card){
     card.addEventListener("click", flipCard);
   });
 }
@@ -67,22 +62,22 @@ function displayAnimals() {
   let animalsList = [...ANIMALS_CONFIG, ...ANIMALS_CONFIG];
   animalsList = shuffleArray(animalsList);
 
-  let animalsHTML = '';
-  animalsList.forEach(eachAnimal => {
-    animalsHTML += `<div class="card-face card">
-                   <img src="assets/images/${eachAnimal.imageFileName}" alt="${eachAnimal.name}" data-id="${eachAnimal.id}">
+  let animalsHTML = "";
+  animalsList.forEach(function(eachAnimal) => {
+    animalsHTML += `<div class="card-face card"><img src="assets/images/${eachAnimal.imageFileName}" 
+                   alt="${eachAnimal.name}" data-id="${eachAnimal.id}">
               </div>`;
   });
 
-  document.getElementById('game-container').innerHTML = animalsHTML;
+  document.getElementById("game-container").innerHTML = animalsHTML;
 }
 
 function shuffleArray(array){
-  return array.sort( () => .5 - Math.random() );
+  return array.sort( () => 5 - Math.random() );
 }
 
 function flipCard(e) {
-    e.target.classList.toggle('flipped'); 
+    e.target.classList.toggle("flipped");
     if(!firstCard) {
         // First card selected
         firstCard = e.target;
@@ -90,13 +85,10 @@ function flipCard(e) {
          // Second card selected
         secondCard = e.target;
     }
-    
     if(firstCard && secondCard) {
         checkForMatch();
         incrementMoves();
-        
-    }
-
+     }
 };
 
 function checkForMatch() { 
@@ -107,7 +99,6 @@ function checkForMatch() {
         incrementScore()
         firstCard = null;
         secondCard = null;
-       
        setTimeout(()=>{
         alert("Good job, it's a match!");
        },500)
@@ -116,34 +107,30 @@ function checkForMatch() {
         //  if two cards don't match
         // Else, flip back both cards
         const timeoutRef = setTimeout(()=> {
-            firstCard.classList.toggle('flipped'); 
-            secondCard.classList.toggle('flipped'); 
+            firstCard.classList.toggle("flipped"); 
+            secondCard.classList.toggle("flipped"); 
             firstCard = null;
             secondCard = null;
             clearTimeout(timeoutRef);
             alert("ah sorry no match, try again");
         }, 1000)
     }
-
-    
-  };
+};
 
   function incrementScore() {
-     const scoreNode = document.getElementById('score');
+     const scoreNode = document.getElementById("score");
     scoreNode.innerText = parseInt(scoreNode.innerText) + 1;
     // increment matched value by one
-    // eachScore = 1; 
-    
-  } 
+    // eachScore = 1
+};
 
-  function incrementMoves() {
+function incrementMoves() {
      const moves = document.getElementById("moves-count");
      moves.innerText = parseInt(moves.innerText) +1;
      // increment move when both cards are flipped
-     // each move = 1;
-   } 
-
- startGame ()
+     // each move = 1
+   } ;
+   startGame ()
    
      
         
