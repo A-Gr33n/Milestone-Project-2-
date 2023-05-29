@@ -45,8 +45,8 @@ const ANIMALS_CONFIG = [
  // Variables to store the currently selected cards
  let firstCard = null ;
  let secondCard = null;
- let lockDeck = false;
 let moves = 0
+let score = 0 
 
 // let noOfCardOpen 
 
@@ -84,19 +84,23 @@ function shuffleArray(array){
 function flipCard(e) {
     e.target.classList.toggle('flipped'); 
     if(!firstCard) {
+        // First card selected
         firstCard = e.target;
     } else {
+         // Second card selected
         secondCard = e.target;
     }
     
     if(firstCard && secondCard) {
         checkForMatch();
         incrementMoves();
+        
     }
 
 };
 
 function checkForMatch() { 
+    // On 2nd click check if both card animal matches
     const firstCardId = firstCard.dataset.id;
     const secondCardId = secondCard.dataset.id;
     if(firstCardId === secondCardId) {
@@ -109,6 +113,8 @@ function checkForMatch() {
        },500)
 
     } else {
+        //  if two cards don't match
+        // Else, flip back both cards
         const timeoutRef = setTimeout(()=> {
             firstCard.classList.toggle('flipped'); 
             secondCard.classList.toggle('flipped'); 
@@ -133,6 +139,8 @@ function checkForMatch() {
   function incrementMoves() {
      const moves = document.getElementById("moves-count");
      moves.innerText = parseInt(moves.innerText) +1;
+     // increment move when both cards are flipped
+     // each move = 1;
    } 
 
  startGame ()

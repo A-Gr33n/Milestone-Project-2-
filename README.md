@@ -62,7 +62,9 @@ As a site owner this should be a website that anyone can enjoy and return to.
 * Game page (Moblie)  [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11345153/Game.page.Moblie.pdf)
 ---
 ## Testing 
-### automated testing 
- There were no Automated testing procedures for this project due to time capacity and the lack of experince. Although automated testing wasn't used for this project I acknowledge the importance of using it. For example in a real world situtation it will be used to eliminate errors and risks quickly to save time. 
+### Automated testing 
+ There were no Automated testing procedures for this project due to time capacity and the lack of experince. Although automated testing wasn't used for this project I acknowledge the importance of using it. For example in a real world situtation I would use Jest as it will  eliminate errors and risks quickly to save time.
 ### Manual testing
- #### 
+ ### Validators
+ #### jslint
+ 
