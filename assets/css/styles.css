@@ -8,18 +8,6 @@ body{
 }
 
 /*home page*/
-.button{
-    height: 140px;
-    width: 140px;
-    border: 6px solid red;
-    background-color: rgb(255, 196, 0);
-    font-size: 150%;
-    
-}
-.button:hover {
-    background-color:#FF0000;
-}
-
 .title{
     font-family:'Trebuchet MS';
     font-size: 300%;
@@ -37,7 +25,19 @@ body{
     position: relative;
     top: 500px;
 }
+/*buttons*/
+.button{
+    height: 140px;
+    width: 140px;
+    border: 6px solid red;
+    background-color: rgb(255, 196, 0);
+    font-size: 150%;
+    
+}
 
+.button:hover {
+    background-color:#FF0000;
+}
 /*game page*/
 
 /*Main heading*/
@@ -45,7 +45,7 @@ body{
 .title-game{
     font-family:'Trebuchet MS';
     position:relative;
-    bottom:190px;
+    bottom:90px;
     
 }
 
@@ -85,24 +85,11 @@ body{
 .refresh-text{
    position:relative;
    bottom:190px;
- 
+   left:;
 }
 
 
-/*buttons*/
 
-#home-button {
-    position: relative;
-    top: 495px;
-    left:640px; 
-    border:solid 5px rgb(233, 21, 14);
-    height: 60px;
-    width: 300px;
-}
-
-#home-button:hover{
-    background-color:#2980b9;
-}
 
 /*Card Section*/
 
