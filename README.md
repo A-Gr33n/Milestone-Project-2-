@@ -1,11 +1,10 @@
-# Match Up! Memory Game
+# Zoo match 
 ## By Aaron Green
 ---
 ## Description
 
- Match up is a memory match card game where the user has a set time to match 16 pair of cards. The website consits of two pages , Home page and the main game page.  
- The Home page has a start game button that the user can click on which will direct them to the game page where the user can play.There is a given time limit for the user to complete the game and the amount of times cards are flipped.
- The instructions on how to play the game are below the home page for first time vistors who may want to know how to play the game. 
+ Zoo match is a game where the user has a pair of 8 cards to match. The game starts with a of set cards hidden faced back for the user to guess and remember each pair. The website consits of two pages , The home page and the game page. The Home page has a start game button where the user can click to direct them to the main game page. 
+ The instructions on how to play the game are below the home page for first time vistors.  
 
 ---
 
@@ -71,3 +70,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
  
  #### W3C Validator and CSS Validator 
  The W3C Markup Validator and W3c CSS Validator was used to validate every page of the project to ensure there were no errors. Screenshots are presented below to show solved errors. 
+
+ ### Audit Report 
+ #### Lighthouse 
+ Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the websites status.  

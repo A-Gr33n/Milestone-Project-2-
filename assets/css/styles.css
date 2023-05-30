@@ -4,48 +4,38 @@ body{
     background-color: #ffcc00;
     margin: 0;
     background-image: linear-gradient(to bottom right, red, yellow);
- 
+    height:50vh;
 }
 
 /*home page*/
 .button{
-    position: relative;
-    top: 250px;
     height: 140px;
     width: 140px;
     border: 6px solid red;
     background-color: rgb(255, 196, 0);
-    left: 690px;
     font-size: 150%;
     
 }
-
 .button:hover {
     background-color:#FF0000;
 }
 
 .title{
-   
-    position: relative;
-    top: 50px;
-    left:380px;
     font-family:'Trebuchet MS';
-    font-size: 400%;
-    
+    font-size: 300%;
 }
 
 .subheading {
-    
-    position: relative;
-    top: 100px;
-    left:380px;
+    font-family:'Trebuchet MS';
+    font-size: 200%;
+    position:relative;
+    top:100px;
 }
 
 .rule{
-   
+    font-family:'Trebuchet MS';
     position: relative;
     top: 500px;
-    left:390px;
 }
 
 /*game page*/
