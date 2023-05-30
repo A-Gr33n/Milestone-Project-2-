@@ -73,4 +73,4 @@ As a site owner this should be a website that anyone can enjoy and return to.
 
  ### Audit Report 
  #### Lighthouse 
- Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the websites status.  
+ Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.  

@@ -46,17 +46,16 @@ body{
     font-family:'Trebuchet MS';
     position:relative;
     bottom:190px;
-    left:550px;
+    
 }
 
 /*game Text*/
 #score {
     font-family: Arial;
-    top: 100px;
     font-size: 150%;
     position:relative;
     top:660px;
-    left:490px;
+    left:300px;
 }
 
 .score-text{
@@ -64,14 +63,14 @@ body{
     font-size: 150%;
     position:relative;
     top:595px;
-    left:470px;
+    left:290px;
 }
 
 #moves-count{
     font-family: Arial;
     position:relative;
     top:585px;
-    left:580px;
+    left:400px;
     font-size: 150%;
 }
 
@@ -79,14 +78,14 @@ body{
     font-family: Arial;
     position:relative;
     top:525px;
-    left:550px;
+    left:400px;
     font-size: 150%;
 }
 
 .refresh-text{
    position:relative;
    bottom:190px;
-   left:500px;
+ 
 }
 
 
@@ -142,7 +141,8 @@ body{
     grid-gap: 10px;
     row-gap: 10px;
     grid-gap: 1em;
-   position:relative;
+    position:relative;
+    left:80px;
     bottom:190px;
-    left:70px;
+    align:center;
 }
