@@ -95,8 +95,14 @@ Trailing space, needed to close any gaps
 
  #### W3C Validator and CSS Validator 
  The W3C Markup Validator and W3c CSS Validator was used to validate every page of the project to ensure there were no errors. Screenshots are presented below to show solved errors. 
- ![W3C passed css validator ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a8e61f19-cd53-43bd-9601-6af41b5f3dab)
-
+  ![W3C error 1 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/95e2f8d1-cd16-4505-ba87-ca3f4eee7499)
+   This error was shown when testing index.html (home page). The element button must not appear as a descendant of the a element. 
+  ![html home page  validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/33dbed20-7287-4c1b-a3f3-c24fb4700223)
+  This error was solved by change the a element to a form element 
+  ![Html game page validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/331d06a0-e09d-4d28-906f-07d8f7ca6e76)
+   There were no errors when testing the game.html 
+  ![W3C passed css validator ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a8e61f19-cd53-43bd-9601-6af41b5f3dab)
+  There were no errors when testing css. 
 
  ### Audit Report 
  #### Lighthouse 
