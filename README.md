@@ -80,12 +80,12 @@ As a site owner this should be a website that anyone can enjoy and return to.
  The property name had to be ordered alphabetical so the names had to be rearranged. 
  ![Screenshot 2023-05-29 195417](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/b10bc52d-3e42-412e-b061-43738e4eaef2)
   Syntax needed to be removed 
-![Screenshot 2023-05-29 200257](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d0e5224-1c58-49ed-bcdd-56e3b4a23fcb)
+ ![Screenshot 2023-05-29 200257](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d0e5224-1c58-49ed-bcdd-56e3b4a23fcb)
   Trailing space, needed to close any gaps  
-![Screenshot 2023-05-29 200654](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2d8232a0-9bc5-4844-974a-4a64b8a0acde)
-![Screenshot 2023-05-29 201236](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5003c186-047c-4357-b02a-f58fe0799e99)
+ ![Screenshot 2023-05-29 200654](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2d8232a0-9bc5-4844-974a-4a64b8a0acde)
+ ![Screenshot 2023-05-29 201236](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5003c186-047c-4357-b02a-f58fe0799e99)
  Line of code was more than 80 characters, so I had to section parts of code.
-![Screenshot 2023-05-29 205815](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/c509c58d-65f2-4443-ba31-504ab40c64c5)
+ ![Screenshot 2023-05-29 205815](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/c509c58d-65f2-4443-ba31-504ab40c64c5)
  Jslint was unable to finish wrap.
  
  Some errors still remain and were unable to solve, here are screenshots. 
@@ -98,7 +98,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
   ![W3C error 1 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/95e2f8d1-cd16-4505-ba87-ca3f4eee7499)
    This error was shown when testing index.html (home page). The element button must not appear as a descendant of the a element. 
   ![html home page  validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/33dbed20-7287-4c1b-a3f3-c24fb4700223)
-  This error was solved by change the a element to a form element 
+  This error was solved by changing the a element to a form element 
   ![Html game page validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/331d06a0-e09d-4d28-906f-07d8f7ca6e76)
    There were no errors when testing the game.html 
   ![W3C passed css validator ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a8e61f19-cd53-43bd-9601-6af41b5f3dab)
