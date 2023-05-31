@@ -100,7 +100,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken.
 
  1. Log into GitHub.
- 2. From the list of repositories on the left side of the screen, select A-Gr33n/Milestone-Project-1
+ 2. From the list of repositories on the left side of the screen, select A-Gr33n/Milestone-Project-2
  3. From the menu items near the top of the page, select Settings
  4. On the code and automation section on the left side of the screen select pages
  5. Under "Build and deployment", under "Source", select Deploy from a branch
