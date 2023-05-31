@@ -90,7 +90,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
 3. As a player, I want to be able to track my progress and see my score that I compete with myself or others.
 4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want.
 5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
-6. As a player, I want the ggame to provide a visually appealing so that it has a fun playful feel.
+6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
 7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
 ---
 ## Deployment 

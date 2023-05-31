@@ -24,6 +24,7 @@ body{
     font-family:'Trebuchet MS';
     position: relative;
     top: 500px;
+    font-size:150%;
 }
 /*buttons*/
 .button{
