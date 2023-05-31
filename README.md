@@ -11,7 +11,7 @@
 ## User's goal
 
 The website's purpose is designed for user to have fun, and to test their memory. 
-The user can improve by completing the game and beat their previous time. 
+ They will have a record of how many times every move and a score 
 
 ---
 ## Site owner's goal 
@@ -62,7 +62,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
 ---
 ## Testing 
 ### Automated testing 
- There were no Automated testing procedures for this project due to time capacity and the lack of experince. Although automated testing wasn't used for this project I acknowledge the importance of using it. For example in a real world situtation I would use Jest as it will  eliminate errors and risks quickly to save time.
+ There were no Automated testing procedures for this project due to time capacity and the lack of experince. Although automated testing wasn't used for this project I acknowledge the importance of using it. For example in a real world situtation I would use Jest in the future because it will eliminate errors and risks quickly to save time.
 ### Manual testing
  ### Validators
  #### jslint
@@ -74,3 +74,5 @@ As a site owner this should be a website that anyone can enjoy and return to.
  ### Audit Report 
  #### Lighthouse 
  Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.  
+
+### Testing from  
