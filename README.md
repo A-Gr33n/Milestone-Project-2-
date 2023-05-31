@@ -77,15 +77,22 @@ As a site owner this should be a website that anyone can enjoy and return to.
  #### jslint
  Js Lint was used for manual testing to check whether there were any errors. During the testing process there were some errors that occured. The Screenshots are posted below to show evidence. 
  ![Screenshot 2023-05-29 194701](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/202650e7-7a27-4445-b6e0-d3c3d31aba70)
+ The property name had to be ordered alaphbetal so the names had to be rearraged. 
  ![Screenshot 2023-05-29 195417](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/b10bc52d-3e42-412e-b061-43738e4eaef2)
+ Syntax needed to be removed 
 ![Screenshot 2023-05-29 200257](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d0e5224-1c58-49ed-bcdd-56e3b4a23fcb)
+Trailing space, needed to close any gaps  
 ![Screenshot 2023-05-29 200654](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2d8232a0-9bc5-4844-974a-4a64b8a0acde)
 ![Screenshot 2023-05-29 201236](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5003c186-047c-4357-b02a-f58fe0799e99)
+ Line of code was more than 80 characters, so I had to section parts of code.
 ![Screenshot 2023-05-29 205815](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/c509c58d-65f2-4443-ba31-504ab40c64c5)
+ Jslint was unable to finish wrap.
+ 
+ Some errors still remain and were unable to solve, here are screenshots. 
+ ![Unsolved error 1  ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/b042feb7-0f23-4750-88fe-61c29d10ee45)
+ ![Unsolved error 2 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/0efcdf2c-4e8f-4464-a747-e7f391149766)
+ ![Unsolved error 3 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/3d197f1f-797d-4958-814c-d3e27ebfe751)
 
- 
- Some errors still remain but they are minor, here are screenshots. 
- 
  #### W3C Validator and CSS Validator 
  The W3C Markup Validator and W3c CSS Validator was used to validate every page of the project to ensure there were no errors. Screenshots are presented below to show solved errors. 
  ![W3C passed css validator ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a8e61f19-cd53-43bd-9601-6af41b5f3dab)
