@@ -75,10 +75,21 @@ As a site owner this should be a website that anyone can enjoy and return to.
 ### Manual testing
  ### Validators
  #### jslint
- Js Lint was used for manual testing as a way to check whether there were any errors. During the testing process there were some errors that occured. The Screenshots are posted below to show evidence. Some errors still remain but they are minor, here are screenshots. 
+ Js Lint was used for manual testing to check whether there were any errors. During the testing process there were some errors that occured. The Screenshots are posted below to show evidence. 
+ ![Screenshot 2023-05-29 194701](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/202650e7-7a27-4445-b6e0-d3c3d31aba70)
+ ![Screenshot 2023-05-29 195417](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/b10bc52d-3e42-412e-b061-43738e4eaef2)
+![Screenshot 2023-05-29 200257](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d0e5224-1c58-49ed-bcdd-56e3b4a23fcb)
+![Screenshot 2023-05-29 200654](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2d8232a0-9bc5-4844-974a-4a64b8a0acde)
+![Screenshot 2023-05-29 201236](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5003c186-047c-4357-b02a-f58fe0799e99)
+![Screenshot 2023-05-29 205815](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/c509c58d-65f2-4443-ba31-504ab40c64c5)
+
+ 
+ Some errors still remain but they are minor, here are screenshots. 
  
  #### W3C Validator and CSS Validator 
  The W3C Markup Validator and W3c CSS Validator was used to validate every page of the project to ensure there were no errors. Screenshots are presented below to show solved errors. 
+ ![W3C passed css validator ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a8e61f19-cd53-43bd-9601-6af41b5f3dab)
+
 
  ### Audit Report 
  #### Lighthouse 
@@ -88,12 +99,19 @@ As a site owner this should be a website that anyone can enjoy and return to.
 
 ### Testing from UX stories
 1. As a player, I want to know how to play game so I can quickly understand the rules and get started right away. 
+![Main page , game instructions ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/60a5de19-322b-49dd-a868-958d4d98c783)
 2. As a player, I want to have a clear understanding of the card matching mechanism so I can make strategic moves during the game. 
+![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/96361314-ada5-41d8-9996-7f67035b176a)
 3. As a player, I want to be able to track my progress and see my score that I compete with myself or others.
+ ![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/d05724fb-60e3-4c4d-9e74-413399d1556e)
 4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want.
 5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
+![Unmatched feedback ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/4c6c95ae-f801-4191-b30e-c236f10bcc68)
+![match feedback ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/8995d9dd-1527-442e-ae4b-d73b5b93a8a2)
 6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
+![website design](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/7511c499-7a47-4852-bc3c-1d0629e54fc1)
 7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
+
 ---
 ## Deployment 
  
