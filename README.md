@@ -78,7 +78,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
  Js Lint was used for manual testing to check whether there were any errors. During the testing process there were some errors that occured. The Screenshots are posted below to show evidence. 
  ![Screenshot 2023-05-29 194701](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/202650e7-7a27-4445-b6e0-d3c3d31aba70)
  The property name had to be ordered alphabetical so the names had to be rearranged. 
- ![Screenshot 2023-05-29 195417](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/b10bc52d-3e42-412e-b061-43738e4eaef2)
+ 
   Syntax needed to be removed 
  ![Screenshot 2023-05-29 200257](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d0e5224-1c58-49ed-bcdd-56e3b4a23fcb)
   Trailing space, needed to close any gaps  
