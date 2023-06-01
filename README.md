@@ -149,12 +149,12 @@ The player can press F5 to refresh page or for smaller devices they can press th
  6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
  ![website design](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/7511c499-7a47-4852-bc3c-1d0629e54fc1)
  
- The website has a bright colourful background on both pages. The colours were thoughtfully chosen to make it as fun and appealing 
+ The website has a bright colourful background on both pages. The colours were thoughtfully chosen to make the game as fun and appealing 
  for the user. 
 
  7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
   
- The game has fixed sizes and has been tested for all devices. Bootstrap was used to make the site responsive. 
+ Bootstrap was used to make the game responsive for all devices.  
 
 ---
 
