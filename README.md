@@ -7,7 +7,7 @@
  The instructions on how to play the game are below the home page for first time vistors.  
 
 ---
-## UX
+## User Experince UX
 ### User Stories
 1. As a player, I want to know how to play game so I can quickly understand the rules and get started right away. 
 2. As a player, I want to have a clear understanding of the card matching mechanism so I can make strategic moves during the game. 
@@ -110,21 +110,17 @@ As a site owner this should be a website that anyone can enjoy and return to.
 
  ### Audit Report 
  #### Lighthouse 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
  Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.  ![Home page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/36d6ed59-08b0-4ae9-a5d6-06e86093c0df)
 ![Game page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/98e34efb-dd7e-408a-8cec-ea31cc5e108a)
-=======
+
  Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the  website's status. 
  ![Home page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/36d6ed59-08b0-4ae9-a5d6-06e86093c0df)
  ![Game page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/98e34efb-dd7e-408a-8cec-ea31cc5e108a)
->>>>>>> refs/remotes/origin/main
 
-=======
+
  Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.
    
->>>>>>> 61e9d3c (checked all vaildators)
-
 ### Testing from UX stories
  1. As a player, I want to know how to play game so I can quickly understand the rules and get started right away. 
  ![Main page , game instructions ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/60a5de19-322b-49dd-a868-958d4d98c783)
@@ -195,3 +191,28 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
      $ git clone https://github.com//A-Gr33n-milestone-2 
            
 1. Press "Enter" to create your local clone
+---
+## Credits
+ ### Code
+ /*credit:code for setting background colour/
+<p> body{
+ <p>   background-color: #ffcc00;
+ <p> margin: 0;
+ <p> background-image: linear-gradient(to bottom right, red, yellow);
+ <p> height:50vh;
+}
+
+ ### Bootstrap v5.3.0:
+    
+   * Bootstrap v5.3.0-alpha1 was mostly used to make the game responsive
+
+ ### Google Fonts :
+   * Google Fonts provided the text that was needed to build the website.
+    
+ ### W3Schools:
+   * W3Schools was used for a fundemental support to carry out this project. 
+ 
+ ## Media 
+  
+  ### Images
+   * The Images that used for this project was taken from Canva https://www.canva.com/en_gb/

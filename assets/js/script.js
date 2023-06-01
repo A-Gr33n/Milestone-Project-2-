@@ -47,6 +47,7 @@ let moves = 0 ;
 let score = 0 ;
 // let noOfCardOpen ;
 
+// Start Game function
 function startGame() {
   displayAnimals();
   addEventListenersToCard();
@@ -57,7 +58,7 @@ function addEventListenersToCard() {
     card.addEventListener("click", flipCard);
   })
 };
-
+// Animal display 
 function displayAnimals() {
   let animalsList = [...ANIMALS_CONFIG, ...ANIMALS_CONFIG];
   animalsList = shuffleArray(animalsList);
@@ -72,11 +73,11 @@ function displayAnimals() {
 
   document.getElementById("game-container").innerHTML = animalsHTML;
 };
-
+// Shuffle cards everytime new game starts 
 function shuffleArray(array){
   return array.sort( () => 5 - Math.random() );
 };
-
+// Card flips when user clicks a card 
 function flipCard(e) {
     e.target.classList.toggle("flipped");
     if(!firstCard) {
