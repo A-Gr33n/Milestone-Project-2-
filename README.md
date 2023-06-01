@@ -136,7 +136,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
  The website has a bright colourful background on both pages. The colours were thoughtfully chosen to make it as fun and appealing 
  for the user. 
  7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
-    The game has fixed sizes and has been tested for all devices. Bootstrap was used to make the site responsive. 
+  The game has fixed sizes and has been tested for all devices. Bootstrap was used to make the site responsive. 
 ---
 ## Deployment 
  
