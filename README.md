@@ -14,13 +14,13 @@
 3. As a player, I want to be able to track my progress and see my score that I compete with myself or others.
 4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want.
 5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
-6. As a player, I want the ggame to provide a visually appealing so that it has a fun playful feel.
+6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
 7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
 
 ### User's goal
 
 The website's purpose is designed for user to have fun, and to test their memory. 
- They will have a record of how many times every move and a score 
+They will have a record of how many times every move and a score. 
 
 
 ### Site owner's goal 
@@ -113,14 +113,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
 
  Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.  ![Home page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/36d6ed59-08b0-4ae9-a5d6-06e86093c0df)
 ![Game page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/98e34efb-dd7e-408a-8cec-ea31cc5e108a)
-
- Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the  website's status. 
- ![Home page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/36d6ed59-08b0-4ae9-a5d6-06e86093c0df)
- ![Game page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/98e34efb-dd7e-408a-8cec-ea31cc5e108a)
-
-
- Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.
-   
+  
 ### Testing from UX stories
  1. As a player, I want to know how to play game so I can quickly understand the rules and get started right away. 
  ![Main page , game instructions ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/60a5de19-322b-49dd-a868-958d4d98c783)
@@ -160,7 +153,8 @@ The player can press F5 to refresh page or for smaller devices they can press th
 
  7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
   
- Bootstrap was used to make the game responsive for all devices.  
+ Bootstrap was used to make the game responsive for all devices. Chrome Dev tools was used to test the game 
+ responsiveness and is documented in the audit report section.
 
 ---
 
