@@ -79,16 +79,20 @@ As a site owner this should be a website that anyone can enjoy and return to.
  
  ![Screenshot 2023-05-29 194701](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/202650e7-7a27-4445-b6e0-d3c3d31aba70)
    The property name had to be ordered alphabetical so the names had to be rearranged. 
+ 
  ![Screenshot 2023-05-29 200257](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d0e5224-1c58-49ed-bcdd-56e3b4a23fcb)
    Syntax needed to be removed
+ 
  ![Screenshot 2023-05-29 200654](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2d8232a0-9bc5-4844-974a-4a64b8a0acde)
    Trailing space, needed to close any gaps  
+
  ![Screenshot 2023-05-29 201236](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5003c186-047c-4357-b02a-f58fe0799e99)
    Line of code was more than 80 characters, so I had to section parts of code.
+
  ![Screenshot 2023-05-29 205815](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/c509c58d-65f2-4443-ba31-504ab40c64c5)
    Jslint was unable to finish wrap.
  
-   Some errors still remain and were unable to solve, here are screenshots. 
+  Some errors still remain and were unable to solve, here are screenshots. 
  ![Unsolved error 1  ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/b042feb7-0f23-4750-88fe-61c29d10ee45)
  ![Unsolved error 2 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/0efcdf2c-4e8f-4464-a747-e7f391149766)
  ![Unsolved error 3 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/3d197f1f-797d-4958-814c-d3e27ebfe751)
@@ -147,10 +151,13 @@ The player can press F5 to refresh page or for smaller devices they can press th
  
  The website has a bright colourful background on both pages. The colours were thoughtfully chosen to make it as fun and appealing 
  for the user. 
+
  7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
   
-  The game has fixed sizes and has been tested for all devices. Bootstrap was used to make the site responsive. 
+ The game has fixed sizes and has been tested for all devices. Bootstrap was used to make the site responsive. 
+
 ---
+
 ## Deployment 
  
  This project was developed using Gitpod a cloud-based editor linked to the Microsoft VS Code. Files and Folders are committed to git and pushed to GitHub. 
