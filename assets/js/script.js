@@ -71,8 +71,10 @@ function displayAnimals() {
   document.getElementById("game-container").innerHTML = animalsHTML;
 };//Shuffle cards everytime new game starts 
 function shuffleArray(array){
-  return array.sort( () => 5 - Math.random() );
-};//Card flips when user clicks a card 
+  return array.sort( () => .5 - Math.random() );
+};
+// Card flips when user clicks a card 
+>>>>>>> 7cece76 (shuffle array error solved)
 function flipCard(e) {
     e.target.classList.toggle("flipped");
     if(!firstCard) {
