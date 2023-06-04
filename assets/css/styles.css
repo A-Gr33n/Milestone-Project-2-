@@ -55,6 +55,7 @@ body{
     font-size: 150%;
     position:relative;
     top:650px;
+    left:-200px;
     }
 
 .score-text{
@@ -62,13 +63,14 @@ body{
     font-size: 150%;
     position:relative;
     top:635px;
+    left:-200px;
     }
 
 #moves-count{
     font-family: Arial;
     position:relative;
     top:575px; 
-    left:200px;
+    left:-70px;
     font-size: 150%;
 }
 
@@ -76,7 +78,7 @@ body{
     font-family: Arial;
     position:relative;
     top:565px; 
-    left:200px;
+    left:-70px;
     font-size: 150%;
 }
 
