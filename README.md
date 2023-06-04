@@ -3,7 +3,7 @@
 ---
 ## Description
 
- Zoo match is a game where the user has a pair of 8 cards to match. The game starts with a of set cards hidden faced back for the user to guess and remember each pair. The website consits of two pages , The home page and the game page. The Home page has a start game button where the user can click to direct them to the main game page. 
+ Zoo match is a game where the user has a pair of 8 cards to match. The game starts with a of set cards hidden faced back for the user to guess and remember each pair. The website consits of two pages , The home page and the game page. The Home page has a start game button where the user can click on to direct them to the main game page. 
  The instructions on how to play the game are below the home page for first time vistors.  
 
 ---
@@ -201,10 +201,13 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
    * Bootstrap v5.3.0-alpha1 was mostly used to make the game responsive
 
  ### Google Fonts :
-   * Google Fonts provided the text that was needed to build the website.
+   * Google Fonts provided various text fonts to influence the website's design.
     
  ### W3Schools:
-   * W3Schools was used for a fundemental support to carry out this project. 
+   * W3Schools was used for fundamental support and gudience. 
+
+ ### Stack overflow 
+   * Stack overflow provided examples of code for reference.   
  
  ## Media 
   
