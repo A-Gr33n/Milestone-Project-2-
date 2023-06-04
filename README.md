@@ -11,7 +11,7 @@
 ### User Stories
 1. As a player, I want to know how to play game so I can quickly understand the rules and get started right away. 
 2. As a player, I want to have a clear understanding of the card matching mechanism so I can make strategic moves during the game. 
-3. As a player, I want to be able to track my progress and see my score that I compete with myself or others.
+3. As a player, I want to be able to track my progress and see my score so that I compete with myself or others.
 4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want.
 5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
 6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
