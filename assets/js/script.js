@@ -72,9 +72,7 @@ function displayAnimals() {
 };//Shuffle cards everytime new game starts 
 function shuffleArray(array){
   return array.sort( () => .5 - Math.random() );
-};
-// Card flips when user clicks a card 
->>>>>>> 7cece76 (shuffle array error solved)
+};// Card flips when user clicks a card 
 function flipCard(e) {
     e.target.classList.toggle("flipped");
     if(!firstCard) {
