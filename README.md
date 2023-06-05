@@ -1,26 +1,26 @@
-# Zoo match 
+# Zoo Match 
 ## By Aaron Green
 ---
 ## Description
 
- Zoo match is a game where the user has a pair of 8 cards to match. The game starts with a of set cards hidden faced back for the user to guess and remember each pair. The website consits of two pages , The home page and the game page. The Home page has a start game button where the user can click on to direct them to the main game page. 
- The instructions on how to play the game are below the home page for first time vistors.  
+Zoo Match is a game where the user has a pair of eight cards to match. The game starts with a set of cards hidden on the back for the user to guess and remember. The website consists of two pages: the home page and the game page. The home page has a "Start Game" button that the user can click on to direct them to the main game page.
+The instructions on how to play the game are below the home page for first-time visitors.
 
 ---
 ## User Experience UX
 ### User Stories
-1. As a player, I want to know how to play game so I can quickly understand the rules and get started right away. 
-2. As a player, I want to have a clear understanding of the card matching mechanism so I can make strategic moves during the game. 
-3. As a player, I want to be able to track my progress and see my score so that I compete with myself or others.
-4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want.
-5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
-6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
-7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
+1. As a player, I want to know how to play the game so I can quickly understand the rules and get started right away. 
+2. As a player, I want to have a clear understanding of the card matching mechanism so I can make strategic moves during the game. 
+3. As a player, I want to be able to track my progress and see my score so that I can compete with myself or others. 
+4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want. 
+5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match. 
+6. As a player, I want the game to be visually appealing so that it has a fun, playful feel. 
+7. As a player, I want the game to be responsive and work well on different devices and screen sizes.
 
 ### User's goal
 
-The website's purpose is designed for user to have fun, and to test their memory. 
-They will have a record of how many times every move and a score. 
+The website's purpose is to allow users to have fun and test their memory.
+They will have a record of how many times each move was made and a score. 
 
 
 ### Site owner's goal 
@@ -30,11 +30,11 @@ As a site owner this should be a website that anyone can enjoy and return to.
 ---
 ## Design
   * Colour Scheme
-    * Background color is orange which is the main color for the site blended with red and yellow to make the design more appealing for the user to give it a fun factor
+    * The background color is orange blended with red and yellow to make the design more appealing to give it a fun factor.
  * Typography
-   * The fonts family used for this project are Roboto font with San Serif as a backup referenced from google fonts
+   * The fonts family used for this project are Roboto font with San Serif as a backup referenced from google fonts.
  * Imagery 
-   * The user will get to have a fun experince playing a game that will test their memory
+   * The user will have a fun experince playing a game that will test their memory.
 ---
 ## Features
   * Responsive on all device sizes 
@@ -49,17 +49,17 @@ As a site owner this should be a website that anyone can enjoy and return to.
 ---
 ## Frameworks
  1. Bootstrap V5 .3: 
-    * Bootstrap was used to keep the website responsive
+    * Bootstrap was used to keep the website responsive.
  1. Google Fonts : 
-    * Google fonts was used to provide the text for the website entire website
+    * Google fonts was used to provide the text for the website entire website.
  1. Canva :
     * Canva is a free online graphic design tool. The images used to make the cards were copied and pasted from the Canva website. 
  1. Git:
-    * Git was used for version contol by utilzing the Gitpod terminal to commit to Git and Push to GitHub
+    * Git was used for version contol by utilzing the Gitpod terminal to commit to Git and Push to GitHub.
  1. Material Design:
-    * Material Design is used to access the level of color combination to make the website as brightful and presentable for the user 
+    * Material Design is used to access the level of color combination to make the website as brightful and presentable for the user. 
  1. Balsamiq:
-    * Balsamiq was used to create the wireframes as a rough draft for the design
+    * Balsamiq was used to create the wireframes, as a rough draft.
 ---
 ## Wireframes 
 * Home WebPage [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11344988/Home.Webpage.pdf)
@@ -71,11 +71,11 @@ As a site owner this should be a website that anyone can enjoy and return to.
 ---
 ## Testing 
 ### Automated testing 
- There were no Automated testing procedures for this project due to time capacity and the lack of experince. Although automated testing wasn't used for this project I acknowledge the importance of using it. For example in a real world situtation I would use Jest in the future because it will eliminate errors and risks quickly to save time.
+ There were no automated testing procedures for this project due to time constraints and a lack of experience. Although automated testing wasn't used for this project, I acknowledge the importance of using it. For example, in a real-world situation, I would use Jest in the future because it will eliminate errors and risks quickly to save time.
 ### Manual testing
  ### Validators
  #### jslint
- Js Lint was used for manual testing to check whether there were any errors. During the testing process there were some errors that occured. The Screenshots are posted below to show evidence. 
+ Js Lint was used for manual testing to check whether there were any errors. During the testing process, there were some errors that occurred. The screenshots are posted below to show evidence.
  
  ![Screenshot 2023-05-29 194701](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/202650e7-7a27-4445-b6e0-d3c3d31aba70)
    The property name had to be ordered alphabetical so the names had to be rearranged. 
