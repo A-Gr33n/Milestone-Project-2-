@@ -10,14 +10,14 @@ body{
 /*home page*/
 .title{
     font-family:'Trebuchet MS';
-    font-size: 300%;
+    font-size: 200%;
 }
 
 .subheading {
     font-family:'Trebuchet MS';
     font-size: 200%;
     position:relative;
-    top:100px;
+    top:30px;
 }
 
 .rule{
@@ -45,7 +45,8 @@ body{
 .title-game{
     font-family:'Trebuchet MS';
     position:relative;
-    bottom:90px;
+    bottom:70px;
+    font-size: 30px;
     }
 
 /*game Text*/
@@ -53,37 +54,37 @@ body{
     font-family: Arial;
     font-size: 150%;
     position:relative;
-    top:650px;
+    top:620px;
     left:-200px;
     }
 
 .score-text{
     font-family: Arial;
-    font-size: 150%;
+    font-size: 100%;
     position:relative;
-    top:635px;
+    top:565px;
     left:-200px;
     }
 
 #moves-count{
     font-family: Arial;
     position:relative;
-    top:575px; 
-    left:-70px;
+    top:555px; 
+    left:-80px;
     font-size: 150%;
 }
 
 .moves-text{
     font-family: Arial;
     position:relative;
-    top:565px; 
+    top:505px; 
     left:-70px;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 .refresh-text{
    position:relative;
-   bottom:190px;
+   bottom:140px;
    left:30px;
 }
 
@@ -110,6 +111,7 @@ body{
     background-color: rgb(233, 21, 14); 
 }
  
+
 #game-container{
     display: grid;
     grid-template-columns: repeat(3, auto) 1fr;
