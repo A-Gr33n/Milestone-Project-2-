@@ -54,8 +54,8 @@ body{
     font-family: Arial;
     font-size: 150%;
     position:relative;
-    top:620px;
-    left:-200px;
+    top:615px;
+    left:-150px;
     }
 
 .score-text{
@@ -63,7 +63,7 @@ body{
     font-size: 100%;
     position:relative;
     top:565px;
-    left:-200px;
+    left:-150px;
     }
 
 #moves-count{
@@ -115,9 +115,8 @@ body{
 #game-container{
     display: grid;
     grid-template-columns: repeat(3, auto) 1fr;
-    grid-gap: 10px;
-    row-gap: 10px;
-    grid-gap: 1em;
+    grid-column-gap: 3px;
+    grid-row-gap: 1px;
     position:relative;
     bottom:-140px;
     }
