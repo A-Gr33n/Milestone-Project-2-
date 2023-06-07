@@ -64,12 +64,13 @@ As a site owner this should be a website that anyone can enjoy and return to.
     * Balsamiq was used to create the wireframes, as a rough draft.
 ---
 ## Wireframes 
-* Home WebPage [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11344988/Home.Webpage.pdf)
-* Home Page (Tablet) [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11344987/Home.page.Tablet.pdf)
-* Home page (Mobile) [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11344989/Home.page.Moblie.pdf)
-* Game Webpage [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11345146/Game.Webpage.pdf)
-* Game page (Tablet) [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11345148/Game.page.Tablet.pdf)
-* Game page (Moblie)  [view.pdf](https://github.com/A-Gr33n/Milestone-Project-2-/files/11345153/Game.page.Moblie.pdf)
+* ![Home Webpage ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/91af0130-ca36-4f80-ae67-4859284fc21f)
+* ![Home Page (Tablet)](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/c2d60c31-cf96-42b2-850d-95270b177c87)
+* ![Home Page (Mobile)](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/78a0f57f-cc96-402e-973c-ed2a08dc567d)
+* ![Game Webpage (https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/3df172f0-f60e-49f8-8d39-8afb5fa7c3da)
+* ![Game Page (Tablet)] (https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/d4407cd2-a860-4994-86d3-e5cfd7a66acc)
+* ![Game Page (Mobile)] (https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2ef4f58d-7b52-43a0-b150-a68faf0f0e09)
+
 ---
 ## Testing 
 ### Automated testing 
