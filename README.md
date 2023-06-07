@@ -67,9 +67,9 @@ As a site owner this should be a website that anyone can enjoy and return to.
  ![Home Webpage ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/91af0130-ca36-4f80-ae67-4859284fc21f)
  ![Game Webpage](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/3df172f0-f60e-49f8-8d39-8afb5fa7c3da)
  ![Home Page (Tablet)](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/c2d60c31-cf96-42b2-850d-95270b177c87)
- ![Game Page (Tablet)] (https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/d4407cd2-a860-4994-86d3-e5cfd7a66acc)
+ ![Game Page (Tablet)](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/d4407cd2-a860-4994-86d3-e5cfd7a66acc)
  ![Home Page (Mobile)](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/78a0f57f-cc96-402e-973c-ed2a08dc567d)
- ![Game Page (Mobile)] (https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2ef4f58d-7b52-43a0-b150-a68faf0f0e09)
+ ![Game Page (Mobile)](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2ef4f58d-7b52-43a0-b150-a68faf0f0e09)
 
 ---
 ## Testing 
