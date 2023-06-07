@@ -45,7 +45,7 @@ body{
 .title-game{
     font-family:'Trebuchet MS';
     position:relative;
-    bottom:70px;
+    bottom:90px;
     font-size: 30px;
     }
 
@@ -54,7 +54,7 @@ body{
     font-family: Arial;
     font-size: 150%;
     position:relative;
-    top:615px;
+    top:515px;
     left:-150px;
     }
 
@@ -62,14 +62,14 @@ body{
     font-family: Arial;
     font-size: 100%;
     position:relative;
-    top:565px;
+    top:465px;
     left:-150px;
     }
 
 #moves-count{
     font-family: Arial;
     position:relative;
-    top:555px; 
+    top:455px; 
     left:-80px;
     font-size: 150%;
 }
@@ -77,43 +77,40 @@ body{
 .moves-text{
     font-family: Arial;
     position:relative;
-    top:505px; 
+    top:405px; 
     left:-70px;
     font-size: 100%;
 }
 
-.refresh-text{
-   position:relative;
-   bottom:140px;
-   left:30px;
-}
 
 /*Card Section*/
 
-
-.card {
-    height: 100px;
-    width: 100px;
+.card{
+    height: 90px;
+    width: 90px;
     border: 3px solid #ffff00;
-   transform-origin: center right;
+    transform-origin: center right;
 }
 .card img {
    opacity:0 ;
    }
+
 .card img.flipped {
     opacity: 1;
 }
+
 .card-face {
-    height: 100px;
-    width: 100px ;
+    height: 90px;
+    width: 90px ;
     background-color: rgb(233, 21, 14); 
 }
-@media (min-width: 230px){
+
+@media (min-width:240px){
  #game-container{
     display: grid;
-    grid-template-columns: repeat(3, auto) 1fr;
-    grid-column-gap: 3px;
-    grid-row-gap: 1px;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: 95px 95px 95px 85px;
+    grid-template-rows:95px 95px 95px;
     position:relative;
     bottom:-140px;
     }
