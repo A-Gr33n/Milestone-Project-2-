@@ -122,6 +122,9 @@ function incrementMoves() {
      // increment move when both cards are flipped
      // each move = 1
    };
+
+  
+
    startGame ()
    
      

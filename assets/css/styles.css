@@ -39,6 +39,7 @@ body{
     background-color:#FF0000;
 }
 
+/*Second Page*/
 
 /*Main heading*/
 
@@ -50,6 +51,11 @@ body{
     }
 
 /*game Text*/
+.refresh-text{
+  position:relative;
+  top:380px;
+}
+
 #score {
     font-family: Arial;
     font-size: 150%;

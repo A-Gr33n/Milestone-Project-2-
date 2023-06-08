@@ -21,8 +21,8 @@ The instructions on how to play the game are below the home page for first-time 
 
 ### User's goal
 
-The website's purpose is to allow users to have fun and test their memory.
-They will have a record of how many times each move was made and a score. 
+The website's purpose is to allow users to have fun and test their memory. The game is suited for children aged 4–10, but anyone can play if they choose to.
+They will have a record of how many times each move was made and a score.
 
 
 ### Site owner's goal 
