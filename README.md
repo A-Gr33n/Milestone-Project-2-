@@ -101,6 +101,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
   
  #### W3C Validator and CSS Validator 
  The W3C Markup Validator and W3c CSS Validator was used to validate every page of the project to ensure there were no errors. Screenshots are presented below to show solved errors. 
+  
   This error occurred when testing game.html, because there was no space between the syntax. This was easily solved by seprating the html elements. 
   ![no space error](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a3032452-0c4e-44fa-8e9a-2b35f0befe93)
   
