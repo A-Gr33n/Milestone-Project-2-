@@ -1,6 +1,6 @@
 # Zoo Match 
+![All devices screenshot  ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/4e8c628d-b074-4ab7-b24f-0265c4eb9346)
 
-![All devices screenshot  ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/bb04faec-a9a4-4951-b6ee-e4b8390f82d8)
 
 ---
 ## Description
