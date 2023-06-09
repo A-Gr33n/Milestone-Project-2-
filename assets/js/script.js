@@ -122,7 +122,7 @@ function checkForMatch(){
     } else{
         //  if two cards don't match
         // Else, flip back both cards
-        setMsg("ah sorry no match, try again");
+        setMsg("Ah sorry no match, try again");
         const timeoutRef = setTimeout(()=> {
             firstCard.classList.toggle("flipped");
             secondCard.classList.toggle("flipped");
