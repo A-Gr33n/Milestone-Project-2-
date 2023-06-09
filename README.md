@@ -117,7 +117,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
   ![Html game page validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/e844594e-f3dd-465b-bacd-e82a3a192fe3)
 
   There were no errors when testing css. 
-  [css validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5793cea4-63fc-4bb2-89af-cf72d7266b47)
+  ![css validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5793cea4-63fc-4bb2-89af-cf72d7266b47)
 
  ### Audit Report 
  #### Lighthouse 
