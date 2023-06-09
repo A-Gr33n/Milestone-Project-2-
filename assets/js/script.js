@@ -118,7 +118,7 @@ function checkForMatch(){
       setTimeout(()=>{
         allowClick= true;
         setMsg("");
-      },500)
+      },1000)
     } else{
         //  if two cards don't match
         // Else, flip back both cards
