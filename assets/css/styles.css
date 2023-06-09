@@ -7,6 +7,14 @@ body{
     height:50vh;
 }
 
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 /*home page*/
 .title{
     font-family:'Trebuchet MS';
@@ -16,16 +24,13 @@ body{
 .subheading {
     font-family:'Trebuchet MS';
     font-size: 200%;
-    position:relative;
-    top:30px;
 }
 
 .rule{
     font-family:'Trebuchet MS';
-    position: relative;
-    top: 500px;
     font-size:150%;
 }
+
 /*buttons*/
 .button{
     height: 140px;
@@ -45,46 +50,31 @@ body{
 
 .title-game{
     font-family:'Trebuchet MS';
-    position:relative;
-    bottom:90px;
     font-size: 30px;
-    }
+}
 
 /*game Text*/
 .refresh-text{
-  position:relative;
-  top:380px;
+    
 }
 
 #score {
     font-family: Arial;
     font-size: 150%;
-    position:relative;
-    top:515px;
-    left:-150px;
-    }
+}
 
 .score-text{
     font-family: Arial;
     font-size: 100%;
-    position:relative;
-    top:465px;
-    left:-150px;
-    }
+}
 
 #moves-count{
     font-family: Arial;
-    position:relative;
-    top:455px; 
-    left:-80px;
     font-size: 150%;
 }
 
 .moves-text{
     font-family: Arial;
-    position:relative;
-    top:405px; 
-    left:-70px;
     font-size: 100%;
 }
 
@@ -98,8 +88,8 @@ body{
     transform-origin: center right;
 }
 .card img {
-   opacity:0 ;
-   }
+    opacity:0 ;
+}
 
 .card img.flipped {
     opacity: 1;
@@ -109,15 +99,19 @@ body{
     height: 90px;
     width: 90px ;
     background-color: rgb(233, 21, 14); 
+    cursor: pointer;
 }
 
-@media (min-width:240px){
- #game-container{
+#game-container{
     display: grid;
     grid-template-columns: auto auto auto auto ;
     grid-template-columns: 95px 95px 95px 85px;
     grid-template-rows:95px 95px 95px;
     position:relative;
-    bottom:-140px;
-    }
-   }
+}
+
+
+#msg {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
