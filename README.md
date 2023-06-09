@@ -115,56 +115,63 @@ As a site owner this should be a website that anyone can enjoy and return to.
  ### Audit Report 
  #### Lighthouse 
 
- Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.  ![Home page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/36d6ed59-08b0-4ae9-a5d6-06e86093c0df)
-![Game page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/98e34efb-dd7e-408a-8cec-ea31cc5e108a)
-  
+ Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.
+
+![Home page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/eda29d83-bf7b-4812-866e-f7fea7f9999e)
+
+![Game page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f425741b-39ee-4fc1-8517-ab1bee02ec83)
+
+
 ### Testing from UX stories
  1. As a player, I want to know how to play game so I can quickly understand the rules and get started right away. 
  
  On the home page the player will see below that there is a instruction on how to play the game. It has a good font size fot the user
  to see.
- 
- ![Main page , game instructions ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/60a5de19-322b-49dd-a868-958d4d98c783)
+
+ ![Home page](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2425e260-95d3-487b-abd1-bdee41b5db84)
 
  2. As a player, I want to have a clear understanding of the card matching mechanism so I can make strategic moves during the game. 
  
  On the game page the player will see that there's a moves count below the card deck. Each move is calculated by 1 everytime the user 
  clicks on two cards at a time.
- 
- ![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/96361314-ada5-41d8-9996-7f67035b176a)
+
+![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f93befef-ff5b-43a8-84d5-ded9f5047f96)
 
  3. As a player, I want to be able to track my progress and see my score so that I can compete with myself or others.
 
  There is a score count below the deck of cards. The user will earn a score of 1 point for every match.   
 
- ![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/d05724fb-60e3-4c4d-9e74-413399d1556e)
+ ![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f93befef-ff5b-43a8-84d5-ded9f5047f96)
  
  4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want.
 
- The player can press F5 to refresh page or for smaller devices they can press the refresh button at the top.
- Cards will be reshuffled random for every new game. 
+ The player can click on the reset button to start the game again at anytime.
 
- 5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
+ ![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/86f23b8d-48f9-4f80-a103-f4c4934bdc13)
+
+5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
  
  The user will recieve this message if he has unmatched the cards.
  
- ![Unmatched feedback ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/4c6c95ae-f801-4191-b30e-c236f10bcc68)
+ ![Unmatched feedback ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d2e54a7-dbb2-4e42-b11d-7459ddd96f89)
+
+  If the user has matched a pair of cards then they will recieve this message 
  
- If the user has matched a pair of cards then they will recieve this message 
- 
- ![match feedback ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/8995d9dd-1527-442e-ae4b-d73b5b93a8a2)
- 
- 6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
+ ![match feedback ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f6d0178f-9d30-4560-b79a-3abaeab4fbc8)
+
+  6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
  
  The website has a bright colourful background on both pages. The colours were thoughtfully chosen to make the game as fun and appealing 
  for the user. 
  
- ![website design](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/7511c499-7a47-4852-bc3c-1d0629e54fc1)
- 
+![Home page](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/1f4eaca4-77a2-4c13-841e-f21ce3d97cc8)
+
+![game page ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/1ea083b7-7c9e-4b00-9530-7e40c1b597f1)
+
  7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
   
- Bootstrap was used to make the game responsive for all devices. Chrome Dev tools was used to test the game 
- responsiveness and is documented in the audit report section.
+Bootstrap was used to make the game responsive for all devices. The game 
+responsiveness was tested using Chrome Dev Tools, which is documented in the audit report section.
 
 ---
 
