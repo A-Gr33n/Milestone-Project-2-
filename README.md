@@ -83,23 +83,22 @@ As a site owner this should be a website that anyone can enjoy and return to.
  ![Screenshot 2023-05-29 194701](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/202650e7-7a27-4445-b6e0-d3c3d31aba70)
    The property name had to be ordered alphabetical so the names had to be rearranged. 
 
- ![Screenshot 2023-05-29 200654](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/2d8232a0-9bc5-4844-974a-4a64b8a0acde)
-   Trailing space, needed to close any gaps  
-
  ![Screenshot 2023-05-29 201236](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5003c186-047c-4357-b02a-f58fe0799e99)
    Line of code was more than 80 characters, so I had to section parts of code.
 
  ![Screenshot 2023-05-29 205815](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/c509c58d-65f2-4443-ba31-504ab40c64c5)
    Jslint was unable to finish wrap.
  
-  Some errors still remain and were unable to solve, here are screenshots. 
+  Some errors still remain and were unable to solve, here are screenshots. There are no major issues and all functions operate in order.
  ![Unsolved error 1](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/b042feb7-0f23-4750-88fe-61c29d10ee45)
  
  ![Unsolved error 2](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/0efcdf2c-4e8f-4464-a747-e7f391149766)
  
- ![Unsolved error 3](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/3d197f1f-797d-4958-814c-d3e27ebfe751)
- 
  ![Unsolved error 4](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d0e5224-1c58-49ed-bcdd-56e3b4a23fcb)
+
+ ![expected 0 before   ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/63f982a0-85ad-4849-9aa3-b25cdab6f3fd)
+
+ ![trailing space screenshoot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a064be20-bd40-4781-958b-cd511affb2db)
   
  #### W3C Validator and CSS Validator 
  The W3C Markup Validator and W3c CSS Validator was used to validate every page of the project to ensure there were no errors. Screenshots are presented below to show solved errors. 
