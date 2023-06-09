@@ -103,19 +103,27 @@ As a site owner this should be a website that anyone can enjoy and return to.
   
  #### W3C Validator and CSS Validator 
  The W3C Markup Validator and W3c CSS Validator was used to validate every page of the project to ensure there were no errors. Screenshots are presented below to show solved errors. 
-  ![W3C error 1 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/95e2f8d1-cd16-4505-ba87-ca3f4eee7499)
+  This error occurred when testing game.html, because there was no space between the syntax. This was easily solved by seprating the html elements. 
+  ![no space error](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a3032452-0c4e-44fa-8e9a-2b35f0befe93)
+  
   This error was shown when testing index.html (home page). The element button must not appear as a descendant of the a element. 
+  ![W3C error 1 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/95e2f8d1-cd16-4505-ba87-ca3f4eee7499)
+  
+   This error was solved by changing the a element to form element.
   ![html home page  validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/33dbed20-7287-4c1b-a3f3-c24fb4700223)
-  This error was solved by changing the a element to a form element 
+  
+   Here are screenshots of passed validators from both webpages.
   ![Html game page validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/331d06a0-e09d-4d28-906f-07d8f7ca6e76)
-  There were no errors when testing the game.html 
-  ![W3C passed css validator ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/a8e61f19-cd53-43bd-9601-6af41b5f3dab)
+  
+  ![Html game page validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/e844594e-f3dd-465b-bacd-e82a3a192fe3)
+
   There were no errors when testing css. 
+  [css validator passed ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/5793cea4-63fc-4bb2-89af-cf72d7266b47)
 
  ### Audit Report 
  #### Lighthouse 
 
- Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. Screenshots are provided below to show evidence of the website's status.
+ Lighthouse was used in chrome dev tools to check the Performance, Best Practies and Accessibility. The website's overall report is 97-98. Screenshots are provided below. 
 
 ![Home page lighthouse audit ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/eda29d83-bf7b-4812-866e-f7fea7f9999e)
 
@@ -135,7 +143,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
  On the game page the player will see that there's a moves count below the card deck. Each move is calculated by 1 everytime the user 
  clicks on two cards at a time.
 
-![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f93befef-ff5b-43a8-84d5-ded9f5047f96)
+ ![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f93befef-ff5b-43a8-84d5-ded9f5047f96)
 
  3. As a player, I want to be able to track my progress and see my score so that I can compete with myself or others.
 
@@ -143,13 +151,13 @@ As a site owner this should be a website that anyone can enjoy and return to.
 
  ![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f93befef-ff5b-43a8-84d5-ded9f5047f96)
  
- 4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want.
+  4. As a player, I want to have the option to reset the game so that I can start a new round whenever I want.
 
  The player can click on the reset button to start the game again at anytime.
 
  ![moves and score screenshot ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/86f23b8d-48f9-4f80-a103-f4c4934bdc13)
 
-5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
+ 5. As a player, I want to receive feedback and be notified when I make a correct or incorrect card match.
  
  The user will recieve this message if he has unmatched the cards.
  
@@ -159,7 +167,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
  
  ![match feedback ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f6d0178f-9d30-4560-b79a-3abaeab4fbc8)
 
-  6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
+ 6. As a player, I want the game to provide a visually appealing so that it has a fun playful feel.
  
  The website has a bright colourful background on both pages. The colours were thoughtfully chosen to make the game as fun and appealing 
  for the user. 
@@ -170,8 +178,8 @@ As a site owner this should be a website that anyone can enjoy and return to.
 
  7. As a player, I want the game to be responsive and work well on different devices and screen sizes. 
   
-Bootstrap was used to make the game responsive for all devices. The game 
-responsiveness was tested using Chrome Dev Tools, which is documented in the audit report section.
+  Bootstrap was used to make the game responsive for all devices. The game 
+  responsiveness was tested using Chrome Dev Tools, which is documented in the audit report section.
 
 ---
 
@@ -217,15 +225,6 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 <p>function shuffleArray(array){
   <p>return array.sort( () => .5 - Math.random() );
 };
-
-/*credit: code for creating card grid columns and row https://bryanlrobinson.com/blog/howto-css-grid-layout-to-make-a-simple-fluid-card-grid/
-   <p> #game-container{
-   <p>  display: grid;
-   <p> grid-template-columns: repeat(3, auto) 1fr;
-   <p>grid-gap: 10px;
-   <p> row-gap: 10px;
-   <p> grid-gap: 1em;
-    }
 
  ### Bootstrap v5.3.0:
     
