@@ -90,8 +90,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
    Jslint was unable to finish wrap.
  
   Some errors still remain and were unable to solve, here are screenshots. There are no major issues and all functions operate in order.
- ![Unsolved error 1](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/b042feb7-0f23-4750-88fe-61c29d10ee45)
- 
+
  ![Unsolved error 2](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/0efcdf2c-4e8f-4464-a747-e7f391149766)
  
  ![Unsolved error 4](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/6d0e5224-1c58-49ed-bcdd-56e3b4a23fcb)
