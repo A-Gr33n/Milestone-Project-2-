@@ -2,7 +2,7 @@ const ANIMALS_CONFIG = [
   {
     id: "elephant",
     imageFileName: "elephant.png",
-    name: "Elephant"
+    name: "elephant"
   },
   {
     id: "fox",
@@ -21,8 +21,8 @@ const ANIMALS_CONFIG = [
     },
   {
     id: "owl",
-    imageFileName: "Owl.png" ,
-    name: "Owl"
+    imageFileName: "owl.png" ,
+    name: "owl"
   },
   {
     id: "sheep",
@@ -36,8 +36,8 @@ const ANIMALS_CONFIG = [
   },
   {
     id: "turtle",
-    imageFileName: "Turtle.png",
-    name: "Turtle"
+    imageFileName: "turtle.png",
+    name: "turtle"
   }
 ];
 //Variables to store the currently selected cards
