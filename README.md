@@ -73,6 +73,8 @@ As a site owner this should be a website that anyone can enjoy and return to.
 
 ---
 ## Testing 
+### Automated vs Manual
+The key differences between automated and manual testing are , automated testing uses frameworks to run test. It is the process in which testers utilize tools and scripts to automated standard. Manual testing is very hands on it requires a group of engineers to be highly involved in every step when a test has been created to the test execution. Both have their strengths and weaknesses. For example manual testing time-consuming, secondly depending on the size of the project, it may require a large team of people and thridly manual testing has a high error rate. 
 ### Automated testing 
  There were no automated testing procedures for this project due to time constraints and a lack of experience. Although automated testing wasn't used for this project, I acknowledge the importance of using it. For example, in a real-world situation, I would use Jest in the future because it will eliminate errors and risks quickly to save time.
 ### Manual testing
