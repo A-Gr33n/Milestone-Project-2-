@@ -32,7 +32,7 @@ As a site owner this should be a website that anyone can enjoy and return to.
 ---
 ## Design
   * Colour Scheme
-    * The background color is orange blended with red and yellow to make the design more appealing to give it a fun factor.
+    *The background colour is #ffcc00 (orange) mixed with #FF0000 (red) and #FFFF00 (yellow) to make the design more appealing and give it a fun factor.
  * Typography
    * The fonts family used for this project are Roboto font with San Serif as a backup referenced from google fonts.
  * Imagery 
@@ -179,6 +179,19 @@ As a site owner this should be a website that anyone can enjoy and return to.
   
   Bootstrap was used to make the game responsive for all devices. The game 
   responsiveness was tested using Chrome Dev Tools, which is documented in the audit report section.
+
+---
+
+## Bugs discovered 
+When testing the console, an "Uncaught TypeError" was found on the first page. This is because the JavaScript code isn't needed for the first page but only for the second page. Therefore, this error couldn't be solved.
+
+![Console log error 1 ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/8f91cdaf-6727-42c6-8857-14f32671aaad)
+
+![console log error 2](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/f87b7e1d-71de-4682-82cc-d8656820724b)
+
+Here's a screenshot of the console on the second page, there are no major errors.
+
+![No console error ](https://github.com/A-Gr33n/Milestone-Project-2-/assets/120597058/60e3fceb-bf63-475b-9f52-46582166b4fb)
 
 ---
 
