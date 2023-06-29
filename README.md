@@ -77,13 +77,13 @@ As a site owner this should be a website that anyone can enjoy and return to.
 The key differences between automated and manual testing are , automated testing uses frameworks to run test. It is the process in which testers utilize tools and scripts to automated standard. Manual testing is very hands on it requires a group of engineers to be highly involved in every step when a test has been created to the test execution. Both have their strengths and weaknesses. For example manual testing is time-consuming, secondly depending on the size of the project, it may require a large team of people and thridly manual testing has a high error rate. On the other hand it's strength is that it handles more complex scenarios. For automated testing requires coding and test maintenance. But on the plus side, its much faster and covers many more permutations.
 
 ### Behaviour-Driven Development(BBD) & Test Driven Development (TDD)
-There are a lot more ways when it comes to building and code ,Behaviour-Driven Development (BBD) and Test Driven Development (TDD). Behaviour-Driven development is based on the expected outcome of an action. BBD is manual testing this way developers would sit in front of the application and test to see its outcome. Test Driven development is a technique where tests are written first then the code. I would use BBD because it ensures that the application works on a higher level and provides a greater level of confidence.
+There are a lot more ways when it comes to building and code ,Behaviour-Driven Development (BBD) and Test Driven Development (TDD). Behaviour-Driven development is based on the expected outcome of an action. BBD is manual testing this way developers would sit in front of the application and test to see its outcome. Test Driven development is a technique where tests are written first then the code. 
+TDD uses the Red Green Refactor appoach were tests are made to fail first then is passed when the right of amount of code is written. Once tests are passed we then analyse ways to improve or refactor our code. 
 
-### Red-Green Refactor
-The Red Green Refactor are tests that made to fail first then is passed when the right of amount of code is written. Once the test is passed we then analyse ways that we can improve or refactor our code.
+I would use BBD because it ensures that the application works on a higher level and provides a greater level of confidence.
 
 ### Automated testing 
- There were no automated testing procedures for this project due to time constraints and a lack of experience. Although automated testing wasn't used for this project, I acknowledge the importance of using it. For example, in a real-world situation, I would use Jest in the future because it will eliminate errors and risks quickly to save time.
+ There were no automated testing procedures for this project due to time constraints and a lack of experience. Although automated testing wasn't used for this project, I acknowledge the importance of using it. For example, in a real-world situation, I would use Jest which is a popluar JavaScript testing framework, it will eliminate errors and risks quickly to save time. It also ensures that different tests don't influence each other's results. 
 ### Manual testing
  ### Validators
  #### jslint
